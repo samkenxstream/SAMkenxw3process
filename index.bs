@@ -369,11 +369,10 @@ Related Members</h5>
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
 	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
-<h3 id="Team">
+<h3 id="Team" oldids="def-Director">
 The W3C Team</h3>
 
 	The <dfn export lt="Team | W3C Team">Team</dfn> consists of
-	the Director,
 	<dfn>CEO</dfn>,
 	W3C paid staff,
 	unpaid interns,
@@ -386,23 +385,11 @@ The W3C Team</h3>
 	and communicates with the Members and the public
 	about the Web and W3C technologies.
 
-	The [=Director=] and CEO <em class="rfc2119">may</em> delegate responsibility
+	The CEO <em class="rfc2119">may</em> delegate responsibility
 	(generally to other individuals in the Team)
-	for any of their roles described in this document,
-	except <a href="#tag-participation">participation in the TAG</a>.</p>
-	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=Director=] and [=CEO=]'s authority,
+	for any of their roles described in this document.
+	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
-
-	The <dfn id="def-Director" export lt="Director|W3C Director">Director</dfn> is the lead technical architect at W3C,
-	whose responsibilities are identified throughout this document in relevant places.
-	Some key ones include:
-	assessing <a href="#def-Consensus" id="DirectorDecision">consensus</a> within W3C for architectural choices,
-	publication of <a href="#Reports">technical reports</a>,
-	and chartering new Groups;
-	appointing group <a href="#GeneralChairs">Chairs</a>,
-	adjudicating as "tie-breaker" for [=Group decision appeals=],
-	and deciding on the outcome of formal objections;
-	the Director is generally Chair of the <a href="#TAG">TAG</a>.
 
 	Team administrative information such as Team salaries,
 	detailed budgeting,
@@ -992,31 +979,25 @@ Composition of the Technical Architecture Group</h5>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			The [=Director=],
-			sitting <i>ex officio</i>;
-
-		<li>
-			Three participants appointed by the [=Director=];
+			Three participants appointed by the [=TAG Appointment Committee=];
 
 		<li>
 			Six participants elected by the [=Advisory Committee=]
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
-	The [=Team=] appoints the Chair of the TAG,
-	who <em class="rfc2119">must</em> be one of the participants.
-	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
+	Participants in the [=TAG=] choose by consensus their Chair or co-Chairs;
+	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the TAG.
+	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the TAG.
+	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
-	The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
+	The terms of TAG participants are for <span class="time-interval">two years</span>.
 	Terms are staggered so that each year three elected terms,
 	and either one or two appointed terms expire.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
-
-	The [=Director=] <em class="rfc2119">may</em> announce the appointed participants
-	after the results for the Advisory Committee election of participants have been announced.
 
 <h5 id=tag-comm>
 Communications of the Technical Architecture Group</h5>
@@ -1049,7 +1030,7 @@ Participation in Elected Groups</h4>
 Expectations for Elected Groups Participants</h5>
 
 	[=Advisory Board=] and [=TAG=] participants have a special role within W3C:
-	they are elected by the Membership and appointed by the Director
+	they are elected by the Membership and appointed
 	with the expectation that they will use their best judgment
 	to find the best solutions for the Web,
 	not just for any particular network,
@@ -1118,8 +1099,10 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	and operational information such as how to nominate a candidate.
 	The [=Team=] <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The [=Team=] <em class="rfc2119">should</em> announce appointments
-	no later than the start of a nomination period as part of the Call for Nominations.
+	The [=TAG Appointment Committee=] <em class="rfc2119">must</em> announce appointments
+	after the results of the election are known,
+	and before the start of the term,
+	as described in [[#TAG-appointments]].
 
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of available seats are the same:
@@ -1215,6 +1198,91 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	Refer to <a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
 	for more details.
 
+<h5 id="TAG-appointments">
+Technical Architecture Group Appointments</h5>
+
+	The <dfn>TAG Appointment Committee</dfn> is responsible for appointing
+	3 of the participants to the [=Technical Architecture Group=].
+	This mechanism complements the election process.
+	The [=TAG Appointment Committee=] <em class=rfc2119>should</em> use its appointments to suppport
+	a diverse and well-balanced [=TAG=].
+
+	For regularly scheduled elections,
+	a [=TAG Appointment Committee=] is formed as soon as possible after the Call for Nominations for the relevant TAG election has closed,
+	and no later than the end of the voting period.
+	When formed to fill vacated seats out of a regularly scheduled election,
+	a [=TAG Appointment Committee=] is formed as soon as possible after the seat is vacated,
+	unless a regular Call for Nominations is scheduled within 2 months.
+
+
+	The [=TAG Appointment Committee=] is composed of the following seats,
+	selected in order:
+	<ol>
+		<li>
+			1 member of the [=Team=], chosen by the CEO
+		<li>
+			2 participants of the current TAG,
+			<a href="#random">randomly selected</a> from those who are not running for election
+		<li>
+			4 [=Chairs=] of [=Working Groups=],
+			<a href="#random">randomly selected</a> from individuals who are or have been [=Chair=] of a [=Working Group=]
+			for at least 6 of the preceeding 12 months,
+			excluding individuals running in the election,
+			already selected (see above),
+			or having the same affiliation as someone already selected.
+	</ol>
+
+	Individuals selected to serve on the [=TAG Appointment Committee=]
+	<em class=rfc2119>may</em> decline,
+	in which case the <a href=#random>random selection procedure</a> for that seat
+	is repeated until it is filled
+	or the pool of eligible electors is exhausted.
+	If willing participants cannot be found to fill the designated number of seats in each category,
+	a [=TAG Appointment Committee=] is formed despite vacant seats.
+
+	The chair of the [=TAG Appointment Committee=] is chosen by [=consensus=] of the participants.
+	If no consensus can be reached within one week of the committee being formed,
+	the chair is instead designated by the [=Team=].
+
+	Participants in the [=TAG Appointment Committee=]
+	<em class=rfc2119>should</em> recruit and nominate
+	candidates for appointment to the TAG.
+	The [=Team=] <em class=rfc2119>must</em> make available to
+	the W3C community at large
+	a means to nominate additional candidates for consideration.
+	Nominations <em class=rfc2119>should</em> include
+	relevant information in support of the candidate.
+	These nominations are confidential to the [=TAG Appointment Committee=].
+
+	The constrains for appointment to the [=TAG=] are
+	the same as for elected participants
+	(see [[#AB-TAG-constraints]] and [[#AB-TAG-elections]]),
+	except that participants of the [=TAG Appointment Committee=]
+	are not eligible.
+
+	The [=TAG Appointment Committee=] appoints by [=consensus=]
+	the number of individuals necessary to fill the number of vacant seats,
+	from the eligible nominees.
+
+	For regularly scheduled elections,
+	the [=TAG Appointment Committee=] must announce its conclusions
+	after the results of the election are known,
+	but no later than the start of the Term.
+	When formed to fill vacated seats outside of a regularly scheduled election,
+	it must announce its conclusions
+	no later than the Call for Nominations of the next scheduled election.
+	If consensus cannot be reached before this deadline,
+	the Chair <em class=rfc2119>should</em> call for a vote.
+	The voting method is at the Chair's discretion,
+	but <em class=rfc2119>must</em> ensure that
+	all participants in the [=TAG Appointment Committee=] are given an equal say,
+	and that all eligible nominees are considered.
+
+	To ensure that seats on the TAG do not stay vacant,
+	if the [=TAG Appointment Committee=] fails to decide on the required number of appointees
+	before the deadline,
+	the [=Team=] appoints the missing number.
+
 <h5 id="random">
 Verifiable Random Selection Procedure</h5>
 
@@ -1275,8 +1343,7 @@ Elected Groups Vacated Seats</h5>
 	<ul>
 		<li>
 			When an appointed [=TAG=] seat is vacated,
-			the Director <em class="rfc2119">may</em> re-appoint someone immediately,
-			but no later than the next regularly scheduled election.
+			a [=TAG Appointment Committee=] appoints a replacement.
 
 		<li>
 			When an elected seat on either the [=AB=] or [=TAG=] is vacated,
@@ -1806,7 +1873,7 @@ Content of a Charter</h3>
 <h3 id="CharterReview">
 Advisory Committee Review of a Charter</h3>
 
-	The Director <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
+	The [=Team=] <em class="rfc2119">must</em> solicit <a href="#ACReview">Advisory Committee review</a>
 	of every new or substantively modified Working Group or Interest Group charter,
 	except for either:
 	* a charter extension
@@ -1833,7 +1900,7 @@ Advisory Committee Review of a Charter</h3>
 	Such a request must be submitted with a Member's comments
 	in response to the Call for Review.
 	Upon receipt of any such request,
-	the Director <em class="rfc2119">must</em> ensure
+	the [=Team=] <em class="rfc2119">must</em> ensure
 	that the Call for Participation for the Working Group
 	occurs at least 60 days
 	after the Call for Review of the charter.
@@ -1842,7 +1909,7 @@ Advisory Committee Review of a Charter</h3>
 Call for Participation in a Chartered Group</h3>
 
 	After [=Advisory Committee review=] of a [=Working Group=] or [=Interest Group=] [=charter=],
-	the Director <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
+	the [=Team=] <em class="rfc2119">may</em> issue a Call for Participation to the Advisory Committee.
 	Charters <em class="rfc2119">may</em> be amended based on review comments
 	before the Call for Participation.
 
@@ -1872,7 +1939,7 @@ Charter Extension</h3>
 
 	To extend a Working Group or Interest Group charter
 	with no other substantive modifications,
-	the Director announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
+	the [=Team=] announces the <dfn id=dfn-charter-extension export lt="charter extension">extension</dfn> to the Advisory Committee.
 	The announcement <em class="rfc2119">must</em> indicate the new duration.
 	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
 	a reference to the <a href="#WGCharter">charter</a>,
@@ -1886,14 +1953,14 @@ Charter Extension</h3>
 	and <a href="#invited-expert-wg">Invited Experts</a>.
 
 	Advisory Committee representatives <em class="rfc2119">may</em> initiate
-	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a Director's decision
+	an <a href="#ACAppeal">Advisory Committee Appeal</a> against a [=Team decision=]
 	regarding the extension of a Working Group or Interest Group charter.
 
 <h3 id="GeneralTermination">
 Chartered Group Closure</h3>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
-	The [=Director=] <em class="rfc2119">may</em> decide to close a group
+	The [=Team=] <em class="rfc2119">may</em> decide to close a group
 	prior to the date specified in the charter in any of the following circumstances:
 
 	<ul>
@@ -1906,7 +1973,7 @@ Chartered Group Closure</h3>
 			The group produces chartered deliverables ahead of schedule.
 	</ul>
 
-	The [=Director=] closes a [=Working Group=] or [=Interest Group=]
+	The [=Team=] closes a [=Working Group=] or [=Interest Group=]
 	by announcement to the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>.
@@ -1960,7 +2027,7 @@ Consensus</h4>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
 
-	Note: The Director, CEO, and COO have the role of
+	Note: The CEO and COO have the role of
 	assessing consensus within the Advisory Committee.
 
 	The following terms are used in this document
@@ -2685,7 +2752,7 @@ Wide Review</h5>
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
 	Before approving transitions,
-	the [=Director=] will consider who has been explicitly offered
+	the [=Team=] will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
@@ -2926,7 +2993,7 @@ The W3C Recommendation Track</h3>
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
-	The Director <em class="rfc2119">may</em> decline a request to advance in maturity level,
+	The [=Team=] <em class="rfc2119">may</em> decline a request to advance in maturity level,
 	requiring a [=Working Group=] to conduct further work,
 	and <em class="rfc2119">may</em> require
 	the specification to return to a lower <a href="#maturity-levels">maturity level</a>.
@@ -3161,7 +3228,7 @@ Implementation Experience</h4>
 	of each feature of the specification will be realized.
 	While no exhaustive list of requirements is provided here,
 	when assessing that there is <dfn id="adequate-implementation">adequate implementation experience</dfn>
-	the [=Director=] will consider (though not be limited to):
+	the [=Team=] will consider (though not be limited to):
 
 	<ul>
 		<li>
@@ -3206,7 +3273,7 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval.
+			<em class="rfc2119">must </em> obtain [=Team=] approval.
 
 		<li>
 			<em class="rfc2119 ">must</em> publicly document all new features
@@ -3259,7 +3326,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 	Certain requests to re-publish a specification
 	within its current maturity level
 	(called <dfn export>Update Requests</dfn>)
-	require [=Director=] approval.
+	require [=Team=] approval.
 	For such [=update requests=], the Working Group:
 
 	<ul>
@@ -3270,7 +3337,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval,
+			<em class="rfc2119">must </em> obtain [=Team=] approval,
 			or fulfill the criteria for [[#streamlined-update]].
 
 		<li>
@@ -3307,7 +3374,7 @@ Updating Mature Publications on the Recommendation Track</h4>
 	</ul>
 
 	There is usually a formal review meeting
-	to ensure the requirements have been met before [=Director=]'s approval is given.
+	to ensure the requirements have been met before [=Team=]'s approval is given.
 
 	Note: [=Update request=] approval is expected to be fairly simple
 	compared to getting approval for a [=transition request=].
@@ -3638,7 +3705,7 @@ Transitioning to Proposed Recommendation</h4>
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
-			except where an exception is approved by the [=Director=],
+			except where an exception is approved by the [=Team=],
 		<li>
 			<em class="rfc2119">must</em> show that the document has received [=wide review=],
 
@@ -3662,7 +3729,7 @@ Transitioning to Proposed Recommendation</h4>
 			without republishing the specification as a [=Candidate Recommendation Snapshot=].
 	</ul>
 
-	The Director:
+	The [=Team=]:
 
 	<ul>
 		<li>
@@ -3675,7 +3742,9 @@ Transitioning to Proposed Recommendation</h4>
 			<em class="rfc2119">may</em> approve a [=Proposed Recommendation=]
 			with minimal <a href="#implementation-experience">implementation experience</a>
 			where there is a compelling reason to do so.
-			In such a case, the [=Director=] <em class="rfc2119">should</em> explain the reasons for that decision.
+			In such a case, the [=Team=] <em class="rfc2119">must</em> explain the reasons for that decision,
+			and that information <em class=rfc2119>must</em> be included in the [=Call for Review=]
+			proposing advancement to [=W3C Recommendation=].
 	</ul>
 
 	Since a [=W3C Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
@@ -3733,7 +3802,7 @@ Transitioning to W3C Recommendation</h4>
 
 		<li>
 			If there was any [=dissent=] in Advisory Committee reviews,
-			the [=Director=] <em class="rfc2119">must</em> publish the substantive content of the dissent
+			the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> [=formally address=] the comment
 			at least 14 days before publication as a [=W3C Recommendation=].
@@ -3943,7 +4012,7 @@ Abandoning an Unfinished Recommendation</h5>
 	This can happen if
 	the [=Working Group=] decided
 	to abandon work on the report,
-	or the [=Director=] required the [=Working Group=]
+	or the [=Team=] required the [=Working Group=]
 	to discontinue work on the technical report before completion.
 	If a [=Working Group=] is made to <a href="#GeneralTermination">close</a>,
 	W3C <em class="rfc2119">must</em> re-[=publish=] any unfinished [=technical report=]
@@ -4016,7 +4085,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
-	either by a request from the [=Director=]
+	either by a request from the [=Team=]
 	or via a request from any of the following:
 
 	<ul>
@@ -4044,7 +4113,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	obsolete,
 	supersede,
 	or restore
-	a [=Recommendation=] the [=Director=] <em class="rfc2119">must</em>:
+	a [=Recommendation=] the [=Team=] <em class="rfc2119">must</em>:
 
 	<ul>
 		<li>
@@ -4087,7 +4156,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	</ul>
 
 	If there was any [=dissent=] in the [=Advisory Committee review=],
-	the [=Director=] <em class="rfc2119">must</em> publish
+	the [=Team=] <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C
 	<strong>and the public</strong>,
 	and <em class="rfc2119">must</em> [=formally address=] the dissent
@@ -4095,7 +4164,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	before publication as an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=].
 
 	The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the [=Director=]'s decision.
+	of the [=Team=]'s decision.
 
 	W3C <em class="rfc2119">must</em> publish an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=]
 	with up to date status.
@@ -5117,15 +5186,8 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 	  the Team <em class="rfc2119">must not</em> make statements about why a Submission request was rejected.
 
 	  The [=Advisory Committee representative=](s) of the [=Submitters=](s)
-	  <em class="rfc2119">may</em> initiate a Submission Appeal
-	  of the [=Team's Decision=] to the [=TAG=]
-	  if the reasons are related to Web architecture,
-	  or to the [=Advisory Board=]
-	  if the request is rejected for other reasons.
-	  In this case the [=Team=] <em class="rfc2119">should</em> make available
-	  its rationale for the rejection to the appropriate body.
-	  The [=Team=] will establish a process for such appeals
-	  that ensures the appropriate <a href="#confidentiality-levels">level of confidentiality</a>.
+	  <em class="rfc2119">may</em> initiate a [=Submission Appeal=].
+	  The procedure for handling <dfn>Submission Appeals</dfn> is the same as for [=Formal Objections=].
 
 <h2 id="GAProcess">
 Process Evolution</h2>
