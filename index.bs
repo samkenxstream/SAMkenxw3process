@@ -45,7 +45,7 @@ Shortname: w3process
 Abstract:
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
 	by developing common protocols that promote its evolution and ensure its interoperability.
-	The W3C Process Document describes the organizational structure of the W3C and processes,
+	The W3C Process Document describes the organizational structure of W3C and processes,
 	responsibilities and functions that enable W3C to accomplish its mission.
 	This document does not describe the internal workings of the Team.
 
@@ -59,6 +59,8 @@ Status Text:
 	As detailed in <a href="https://www.w3.org/Consortium/Process/#GAProcess">Section 11 Process Changes</a>,
 	once the W3C Advisory Board considers it ready for adoption,
 	it will be offered for W3C Advisory Committee Review.
+	A <a href="https://www.w3.org/Consortium/Process/Drafts/snapshots/2023-04">7 April snapshot</a> was created
+	and sent for W3C Advisory Committee Review on 12 April 2023.
 Issue Tracking: Github (preferred) https://github.com/w3c/w3process/issues/
 Issue Tracking: Public mailing list https://lists.w3.org/Archives/Public/public-w3process/
 Issue Tracking: Member-only mailing list https://lists.w3.org/Archives/Member/process-issues
@@ -109,18 +111,21 @@ g g:hover text {
 <!--[if lt IE 9]><script src='undefined://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]-->
 
 <h2 class="no-num no-toc no-ref" id="pp">
-Relation of Process Document to Patent Policy</h2>
+Relation of Process Document to Patent Policy and Other Policies</h2>
+
+	<!-- DO NOT REMOVE THIS SECTION OR ITS REFERENCE TO THE PATENT POLICY WITHOUT DISCUSSING WITH PSIG / COUNSEL. -->
 
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
 	per the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
 	The <a href="https://www.w3.org/Consortium/Patent-Policy/">W3C Patent Policy</a> [[!PATENT-POLICY]]
-	is incorporated by normative reference as a part of the Process Document,
-	and is thus equally binding.
+	and other policies
+	incorporated by normative reference as a part of the Process Document
+	are equally binding.
 
-	The Patent Policy places additional obligations on Members, Team, and other participants in W3C.
+	The Patent Policy and CEPC place additional obligations on Members, Team, and other participants in W3C.
 	The Process Document does not restate those requirements but includes references to them.
-	The Process Document and Patent Policy have been designed to allow them to evolve independently.
+	The Process Document, Patent Policy, and CEPC have been designed to allow each to evolve independently.
 
 	In the Process Document, the term “participant” refers to an individual, not an organization.
 
@@ -146,7 +151,7 @@ Conformance and specialized terms</h2>
 	and readers are reminded that the ordinary English definitions are insufficient
 	for the purpose of understanding this document.
 
-<nav data-fill-with="table-of-contents" id="toc"></nav>
+<nav data-fill-with="table-of-contents"></nav>
 <main>
 
 <h2 id="Intro">
@@ -207,7 +212,7 @@ Introduction</h2>
 			to draft proposed <a href="#WGCharterDevelopment">Interest Group or Working Group charters</a>.
 			W3C Members <a href="#CharterReview">review</a> the proposed charters,
 			and when there is support within W3C for investing resources in the topic of interest,
-			the W3C approves the group(s),
+			W3C approves the group(s),
 			and they begin their work.
 	</ol>
 
@@ -234,9 +239,9 @@ Members</h3>
 
 	<ol>
 		<li>
-			One representative per Member organization particiaptes
+			One representative per Member organization participates
 			in the [=Advisory Committee=]
-			which oversees the work of the W3C.
+			which oversees the work of W3C.
 
 		<li>
 			Representatives of Member organizations participate
@@ -295,15 +300,15 @@ Rights of Members</h4>
 	are contingent upon conformance to the processes described in this document.
 	Disciplinary action for anyone participating in W3C activities is described in [[#discipline]].
 
-	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member Web site</a> [[MEMBER-HP]].
+	Additional information for Members is available at the <a href="https://www.w3.org/Member/">Member website</a> [[MEMBER-HP]].
 
-<h4 id="RelatedAndConsortiumMembers">
-Member Consortia and Related Members</h4>
+<h4 id="RelatedAndAssociatedMembers" oldids="RelatedAndConsortiumMembers">
+Member Associations and Related Members</h4>
 
-<h5 id="MemberConsortia">
-Membership Consortia</h5>
+<h5 id="MemberAssoc" oldids="fdn-member-consortium, MemberConsortia">
+Membership Associations</h5>
 
-	A “<dfn id=fdn-member-consortium lt="Member Consortium | Member Consortia">Member Consortium</dfn>” means a consortium,
+	A “<dfn lt="Member Association | Member Associations">Member Association</dfn>” means a consortium,
 	user society,
 	or association of two or more individuals,
 	companies,
@@ -313,27 +318,27 @@ Membership Consortia</h5>
 	or pooling resources to achieve a common goal other than participation in,
 	or achieving certain goals in,
 	W3C.
-	A joint-stock corporation or similar entity is not a [=Member Consortium=]
+	A joint-stock corporation or similar entity is not a [=Member Association=]
 	merely because it has shareholders or stockholders.
-	If it is not clear whether a prospective Member qualifies as a [=Member Consortium=],
+	If it is not clear whether a prospective Member qualifies as a [=Member Association=],
 	the [=CEO=] may reasonably make the determination.
-	For a [=Member Consortium=], the rights and privileges of W3C Membership
-	described in the W3C Process Document extend to the [=Member Consortium=]'s paid staff
+	For a [=Member Association=], the rights and privileges of W3C Membership
+	described in the W3C Process Document extend to the [=Member Association=]'s paid staff
 	and Advisory Committee representative.
 
-	[=Member Consortia=] <em class="rfc2119">may</em> also designate
+	[=Member Associations=] <em class="rfc2119">may</em> also designate
 	up to four (or more at the Team's discretion) individuals
 	who, though not employed by the organization,
 	<em class="rfc2119">may</em> exercise the rights of <a href="#member-rep">Member representatives</a>.
 
-	For [=Member Consortia=] that have individual people as members,
+	For [=Member Associations=] that have individual people as members,
 	these individuals <em class="rfc2119">must</em> disclose their employment affiliation
 	when participating in W3C work.
 	Provisions for <a href="#MemberRelated">related Members</a> apply.
 	Furthermore, these individuals <em class="rfc2119">must</em> represent the broad interests of the W3C Member organization
 	and not the particular interests of their employers.
 
-	For Member Consortia that have organizations as Members,
+	For Member Associations that have organizations as Members,
 	all such designated representatives <em class="rfc2119">must</em> be an official representative of the Member organization
 	(e.g. a Committee or Task Force Chairperson)
 	and <em class="rfc2119">must</em> disclose their employment affiliation when participating in W3C work.
@@ -341,8 +346,8 @@ Membership Consortia</h5>
 	Furthermore, these individuals <em class="rfc2119">must</em> represent the broad interests of the W3C Member organization
 	and not the particular interests of their employers.
 
-	For all representatives of a Member Consortium,
-	IPR commitments are made on behalf of the Member Consortium,
+	For all representatives of a Member Association,
+	IPR commitments are made on behalf of the Member Association,
 	unless a further IPR commitment is made by the individuals' employers.
 
 <h5 id="MemberRelated">
@@ -369,11 +374,10 @@ Related Members</h5>
 	[=Related Members=] <em class="rfc2119">must</em> disclose these relationships
 	according to the mechanisms described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
 
-<h3 id="Team">
+<h3 id="Team" oldids="def-Director">
 The W3C Team</h3>
 
 	The <dfn export lt="Team | W3C Team">Team</dfn> consists of
-	the Director,
 	<dfn>CEO</dfn>,
 	W3C paid staff,
 	unpaid interns,
@@ -386,38 +390,20 @@ The W3C Team</h3>
 	and communicates with the Members and the public
 	about the Web and W3C technologies.
 
-	The [=Director=] and CEO <em class="rfc2119">may</em> delegate responsibility
+	The CEO <em class="rfc2119">may</em> delegate responsibility
 	(generally to other individuals in the Team)
-	for any of their roles described in this document,
-	except <a href="#tag-participation">participation in the TAG</a>.</p>
-	<dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn> derive from the [=Director=] and [=CEO=]'s authority,
+	for any of their roles described in this document.
+	[=Team Decisions=] derive from the [=CEO=]'s authority,
 	even when they are carried out by other members of the [=Team=].
 
-	The <dfn id="def-Director" export lt="Director|W3C Director">Director</dfn> is the lead technical architect at W3C,
-	whose responsibilities are identified throughout this document in relevant places.
-	Some key ones include:
-	assessing <a href="#def-Consensus" id="DirectorDecision">consensus</a> within W3C for architectural choices,
-	publication of <a href="#Reports">technical reports</a>,
-	and chartering new Groups;
-	appointing group <a href="#GeneralChairs">Chairs</a>,
-	adjudicating as "tie-breaker" for [=Group decision appeals=],
-	and deciding on the outcome of formal objections;
-	the Director is generally Chair of the <a href="#TAG">TAG</a>.
+	Oversight over the [=Team=],
+	budgeting,
+	and other business decisions,
+	is provided by the <dfn export lt="BoD | Board | Board of Directors | W3C Board of Directors">W3C Board of Directors</dfn>,
+	rather than managed directly by the Process.
 
-	Team administrative information such as Team salaries,
-	detailed budgeting,
-	and other business decisions
-	are <a href="#Team-only">Team-only</a>,
-	subject to oversight by the [=Host institutions=].
-
-	Note: W3C is not currently incorporated.
-	For legal contracts, W3C is represented by four <dfn id="hosts" lt="Hosts|Host institutions">“Host” institutions</dfn>:
-	Beihang University,
-	the European Research Consortium for Informatics and Mathematics (<abbr>ERCIM</abbr>),
-	Keio University,
-	and the Massachusetts Institute of Technology (<abbr>MIT</abbr>).
-	Within W3C, the Host institutions are governed by hosting agreements;
-	the [=Hosts=] themselves are not W3C Members.
+	Note: See the [[BYLAWS inline|W3C Bylaws]] for more details
+	on the [=Board=] and overall governance of W3C.
 
 <h2 id=groups>
 Groups and Participation</h2>
@@ -505,7 +491,8 @@ Conflict of Interest Policy</h5>
 
 		<li>
 			A decision-making role/responsibility
-			(such as participating on the Board) in other organizations relevant to W3C.
+			(such as participating on a Board)
+			in other organizations relevant to W3C.
 
 		<li>
 			A position on a publicly visible advisory body,
@@ -709,11 +696,11 @@ Resignation from a Group</h4>
 	A W3C Member or Invited Expert <em class="rfc2119">may</em> resign from a group.
 	On written notification from an Advisory Committee representative
 	or Invited Expert
-	to the team,
+	to the [=Team=],
 	the Member and their representatives
 	or the Invited Expert
 	will be deemed to have resigned from the relevant group.
-	The team <em class="rfc2119">must</em> record the notification.
+	The [=Team=] <em class="rfc2119">must</em> record the notification.
 	See “Exclusion and Resignation from the Working Group” in the W3C Patent Policy [[PATENT-POLICY]]
 	for information about obligations remaining after resignation from certain groups.
 
@@ -725,7 +712,7 @@ Role of the Advisory Committee</h4>
 
 	<p id=ReviewAppeal>
 	The <dfn export lt="Advisory Committee|AC">Advisory Committee</dfn> represents
-	the [=Members=] of the W3C at large.
+	the [=Members=] of W3C at large.
 	It is responsible for:
 
 	<ul>
@@ -733,7 +720,7 @@ Role of the Advisory Committee</h4>
 			reviewing plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
 		<li>
-			<a href="#ACReview">reviewing formal proposals</a> of the W3C:
+			<a href="#ACReview">reviewing formal proposals</a> of W3C:
 			<a href="#CharterReview">Charter Proposals</a>,
 			<a href="#RecsPR">Proposed Recommendations</a>,
 			and <a href="#GAProcess">Proposed Process Documents</a>.
@@ -748,7 +735,7 @@ Role of the Advisory Committee</h4>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
 	an <a href="#ACAppeal">Advisory Committee Appeal</a>
 	of a [=W3C decision=]
-	or [=Director=]'s decision.
+	or [=Team=]'s decision.
 
 	See also the additional roles of [=Advisory Committee representatives=]
 	described in the W3C Patent Policy [[PATENT-POLICY]].
@@ -852,7 +839,7 @@ Advisory Committee Meetings</h4>
 	at least <span class="time-interval">one year</span> in advance.
 
 	More information about <a href="https://www.w3.org/Member/Meeting/">Advisory Committee meetings</a> [[AC-MEETING]]
-	is available at the Member Web site.
+	is available at the Member website.
 
 <h3 id=elected-groups>
 Elected Groups: The AB and the TAG</h3>
@@ -879,14 +866,16 @@ Role of the Advisory Board</h5>
 	soliciting Member comments on such issues,
 	and proposing actions to resolve these issues.
 	The Advisory Board manages the <a href="#GAProcess">evolution of the Process Document</a>.
-	The Advisory Board hears a <a href="#SubmissionNo">Submission Appeal</a>
-	when a Member Submission is rejected
-	for reasons unrelated to Web architecture;
-	see also the <a href="#TAG">TAG</a>.
+	As part of a [=W3C Council=],
+	members of the [=Advisory Board=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
+	and [=Formal Objections=].
 
-	The [=Advisory Board=] is <strong>not</strong> a board of directors
+	The [=Advisory Board=] is distinct from the [=Board of Directors=]
 	and has no decision-making authority within W3C;
 	its role is strictly advisory.
+
+	Note: While the [=AB=] as such does not have decision-making authority,
+	its members do when sitting as part of a [=W3C Council=].
 
 	Details about the Advisory Board
 	(e.g., the list of Advisory Board participants,
@@ -902,7 +891,13 @@ Composition of the Advisory Board</h5>
 	the [=Team=] appoints the Chair,
 	who <em class=rfc2119>should</em> choose a co-chair among the elected participants.
 	The Chair(s) are subject to ratification by secret ballot
-	by two thirds of the AB upon appointment and at the start of each AB term.
+	by two thirds of the AB upon appointment.
+	Chair selection <em class=rfc2119>must</em> be run
+	at least at the start of each regular term,
+	as well as when a majority of the participants request it;
+	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
+	for example if a chair steps down or if a minority of the participants make such a request.
+
 	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a>,
 	as described in <a href="#ReqsAllGroups"></a>.
 	The CEO and Team Contact have a standing invitation
@@ -930,6 +925,24 @@ Communications of the Advisory Board</h5>
 	The Advisory Board <em class="rfc2119">should</em> also report on its activities
 	at each <a href="#ACMeetings">Advisory Committee meeting</a>.
 
+<h5 id=ab-bod-liaison>
+Liaisons between the Advisory Board and the Board of Directors</h5>
+
+	To ensure good communication between the [=AB=] and the [=Board of Directors=]
+	and facilitate operational and management consistency,
+	the [=AB=] <em class=rfc2119>may</em> appoint up to two of its participants as liaisons to the [=Board=].
+	Such appointees are expected to attend and participate in [=Board=] meetings
+	and access [=Board=] materials
+	as Non-voting Observers. [[BYLAWS]]
+	They do not form part of the [=Board=]'s decision-making body,
+	and may be excluded from such participation
+	in accordance with applicable Board procedures.
+
+	The [=Advisory Board=] <em class=rfc2119>should</em> reevaluate
+	who is assigned to this role
+	at least at the beginning of each term,
+	and <em class=rfc2119>may</em> swap its appointees more frequently
+	as they deem appropriate.
 
 <h4 id="TAG">
 Technical Architecture Group (TAG)</h4>
@@ -952,9 +965,9 @@ Role of the Technical Architecture Group</h5>
 			to help coordinate cross-technology architecture developments inside and outside W3C.
 	</ol>
 
-	The [=TAG=] hears a <a href="#SubmissionNo">Submission Appeal</a>
-	when a Member Submission is rejected for reasons related to Web architecture;
-	see also the <a href="#AB">Advisory Board</a>.
+	As part of a [=W3C Council=],
+	the members of the [=TAG=] hear and adjudicate on <a href="#SubmissionNo">Submission Appeals</a>
+	and [=Formal Objections=].
 
 	The [=TAG=]'s scope is limited to technical issues about Web architecture.
 	The TAG <em class="rfc2119">should not</em> consider
@@ -990,31 +1003,31 @@ Composition of the Technical Architecture Group</h5>
 			Tim Berners-Lee, who is a life member;
 
 		<li>
-			The [=Director=],
-			sitting <i>ex officio</i>;
-
-		<li>
-			Three participants appointed by the [=Director=];
+			Three participants [[#TAG-appointments|appointed by the Team]];
 
 		<li>
 			Six participants elected by the [=Advisory Committee=]
 			following the <a href="#AB-TAG-elections">AB/TAG nomination and election process</a>.
 	</ul>
 
-	The [=Team=] appoints the Chair of the TAG,
-	who <em class="rfc2119">must</em> be one of the participants.
-	The team also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
+	Participants in the [=TAG=] choose by consensus their Chair or co-Chairs;
+	in the absence of consensus, the [=Team=] appoints the Chair or co-Chairs of the TAG.
+	The Chair or co-Chairs <em class="rfc2119">must</em> be selected from the participants of the TAG.
+	Chair selection <em class=rfc2119>must</em> be run
+	at least at the start of each regular term,
+	as well as when a majority of the participants request it;
+	and <em class=rfc2119>may</em> be run at other times when initiated by the current chairs or the Team,
+	for example if a chair steps down or if a minority of the participants make such a request.
+
+	The [=Team=] also appoints a <a href="https://www.w3.org/Guide/teamcontact/role.html">Team Contact</a> [[TEAM-CONTACT]] for the TAG,
 	as described in <a href="#ReqsAllGroups"></a>.
 
-	The terms of elected and Director-appointed TAG participants are for <span class="time-interval">two years</span>.
-	Terms are staggered so that each year three elected terms,
-	and either one or two appointed terms expire.
+	The terms of TAG participants last for <span class="time-interval">two years</span>.
+	Terms are staggered so that three elected terms
+	and either one or two appointed terms expire each year.
 	If an individual is appointed or elected to fill an incomplete term,
 	that individual's term ends at the normal expiration date of that term.
 	Regular TAG terms begin on 1 February and end on 31 January.
-
-	The [=Director=] <em class="rfc2119">may</em> announce the appointed participants
-	after the results for the Advisory Committee election of participants have been announced.
 
 <h5 id=tag-comm>
 Communications of the Technical Architecture Group</h5>
@@ -1047,7 +1060,7 @@ Participation in Elected Groups</h4>
 Expectations for Elected Groups Participants</h5>
 
 	[=Advisory Board=] and [=TAG=] participants have a special role within W3C:
-	they are elected by the Membership and appointed by the Director
+	they are elected by the Membership and appointed by the [=Team=]
 	with the expectation that they will use their best judgment
 	to find the best solutions for the Web,
 	not just for any particular network,
@@ -1116,8 +1129,10 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	and operational information such as how to nominate a candidate.
 	The [=Team=] <em class="rfc2119">may</em> modify the tabulation system after the Call for Nominations
 	but <em class="rfc2119">must</em> stabilize it no later than the Call for Votes.
-	The [=Team=] <em class="rfc2119">should</em> announce appointments
-	no later than the start of a nomination period as part of the Call for Nominations.
+	The [=Team=] announces appointments
+	after the results of the election are known,
+	and before the start of the term,
+	as described in [[#TAG-appointments]].
 
 	In the case of regularly scheduled elections of the [=TAG=],
 	the minimum and maximum number of available seats are the same:
@@ -1213,6 +1228,54 @@ Advisory Board and Technical Architecture Group Elections</h5>
 	Refer to <a href="https://www.w3.org/2002/10/election-howto">How to Organize an Advisory Board or TAG election</a> [[ELECTION-HOWTO]]
 	for more details.
 
+<h5 id="TAG-appointments">
+Technical Architecture Group Appointments</h5>
+
+	The [=Team=] is responsible for appointing
+	3 of the participants to the [=Technical Architecture Group=].
+	This mechanism complements the election process.
+	The [=Team=] <em class=rfc2119>should</em> use its appointments to support
+	a diverse and well-balanced [=TAG=],
+	including diversity of technical background, knowledge, and skill sets.
+
+	The [=Team=] <em class=rfc2119>should</em> actively seek
+	candidates for appointment to the TAG,
+	and <em class=rfc2119>must</em> make available to
+	the W3C community at large
+	a means to propose candidates for consideration,
+	explicitly soliciting input from at least
+	current and incoming [=TAG=] members, the [=Advisory Committee=], and [=Working Group=] [=Chairs=].
+
+	The constraints for appointment to the [=TAG=] are
+	the same as for elected participants
+	(see [[#AB-TAG-constraints]] and [[#AB-TAG-elections]]),
+	with the additional constraint that
+	a person <em class=rfc2119>must not</em> be appointed
+	for more than two <em>consecutive</em> terms.
+	(Partial terms used to fill a vacated seat do not count towards this limit.)
+
+	Note: Individuals who have reached the limit of two consecutive appointed terms
+	<em class=rfc2119>may</em> freely run for election
+	if they wish to continue serving on the [=TAG=].
+
+	The [=Team=]'s choice of appointee(s)
+	is subject to ratification by secret ballot
+	by both the [=AB=] and the [=TAG=],
+	each requiring a two-thirds approval.
+	In the case of regularly scheduled elections,
+	the [=TAG=] participants in this ratification are
+	its members for the upcoming term.
+
+	For regularly scheduled elections,
+	selection begins once the results of the elections are known,
+	and the [=Team=] <em class=rfc2119>should</em> announce the ratified appointment(s)
+	no later than the start of the regularly scheduled term.
+	When an appointed seat is vacated outside of a regularly scheduled election,
+	the [=Team=] <em class=rfc2119>should</em> seek to appoint a replacement
+	unless a regular Call for Nominations is scheduled within 2 months,
+	and it <em class=rfc2119>must</em> announce the ratified appointment
+	no later than the Call for Nominations of the next scheduled election.
+
 <h5 id="random">
 Verifiable Random Selection Procedure</h5>
 
@@ -1273,8 +1336,7 @@ Elected Groups Vacated Seats</h5>
 	<ul>
 		<li>
 			When an appointed [=TAG=] seat is vacated,
-			the Director <em class="rfc2119">may</em> re-appoint someone immediately,
-			but no later than the next regularly scheduled election.
+			the [=Team=] [[#TAG-appointments|appoints]] a replacement.
 
 		<li>
 			When an elected seat on either the [=AB=] or [=TAG=] is vacated,
@@ -1880,9 +1942,11 @@ Charter Extension</h3>
 	The announcement <em class="rfc2119">must</em> indicate the new duration.
 	The announcement <em class="rfc2119">must</em> also include rationale for the extension,
 	a reference to the <a href="#WGCharter">charter</a>,
+	and the Group homepage
+	(which includes at least
 	the name(s) of the group's [=Chair=](s),
 	the name of the [=Team Contact=],
-	and instructions for joining the group.
+	and instructions for joining the group).
 
 	After a charter extension,
 	Advisory Committee representatives
@@ -1898,11 +1962,20 @@ Chartered Group Closure</h3>
 
 	A [=Working Group=] or [=Interest Group=] charter specifies a duration for the group.
 
-	In exceptional circumstances,
-	The [=Team=] <em class="rfc2119">may</em> propose through an [=AC Review=]
-	to close a group prior to the date specified in the charter.
-	This may occur for instance
-	when a [=Patent Advisory Group=] concluded that the work <em class="rfc2119">should</em> be terminated.
+	The [=Team=], the [=TAG=], or the [=AB=] <em class=rfc2119>may</em> propose to close a group
+	prior to the date specified in the charter in any of the following circumstances:
+
+	* There are insufficient member resources to produce chartered deliverables
+		or to maintain the group,
+		according to priorities established within W3C.
+	* A [=Patent Advisory Group=] concluded that the work
+		<em class=rfc2119>should</em> be terminated.
+	* The [=TAG=] or [=AB=] determined that continuing operation of the chartered group or its work
+		would be detrimental to W3C or its mission.
+	* The group produced all chartered deliverables ahead of schedule.
+
+	Such a proposal to close a group must be accompanied by rationale,
+	and the proposal must be confirmed by an [=AC Review=] as a [=W3C Decision=].
 
 	Closing a Working Group has implications
 	with respect to the W3C Patent Policy [[!PATENT-POLICY]].
@@ -1928,9 +2001,15 @@ Types of Decisions</h3>
 	are called <dfn export lt="group decision | resolution">group decisions</dfn>
 	(also known as group “resolutions”).
 
-	A <dfn id="def-w3c-decision">W3C decision</dfn> is one
-	where the [=Director=] decides,
-	after exercising the role of assessing consensus of the W3C Community after an [=Advisory Committee review=].
+	Decisions made by members of the [=Team=]
+	in connection with this Process,
+	based on their own individual or collective judgement,
+	are called <dfn noexport lt="Team Decision | Team's Decision">Team Decisions</dfn>.
+
+	In contrast,
+	a <dfn id="def-w3c-decision">W3C decision</dfn> is
+	determined by the [=Team=] on behalf of the W3C community
+	by assessing the consensus of the W3C Community after an [=Advisory Committee review=].
 
 <h3 id=consensus-building>
 Consensus Building</h3>
@@ -1953,7 +2032,7 @@ Consensus</h4>
 	or <a href="#distributed-meeting">distributed</a>)
 	as well as through <a href=#discussion-archiving>persistent text-based discussions</a>.
 
-	Note: The Director, CEO, and COO have the role of
+	Note: The CEO has the role of
 	assessing consensus within the Advisory Committee.
 
 	The following terms are used in this document
@@ -1964,7 +2043,7 @@ Consensus</h4>
 		<dd>
 			A substantial number of individuals in the set
 			support the decision
-			and nobody in the set registers a <a href="#FormalObjection">Formal Objection</a>.
+			and there is no sustained objection from anybody in the set.
 			Individuals in the set <em class="rfc2119">may</em> abstain.
 			Abstention is either an explicit expression of no opinion
 			or silence by an individual in the set.
@@ -1977,8 +2056,16 @@ Consensus</h4>
 
 		<dt><dfn id="def-Dissent">Dissent</dfn>:
 		<dd>
-			At least one individual in the set registers a <a href="#FormalObjection">Formal Objection</a>.
+			At least one individual in the set sustains an objection.
 	</dl>
+
+	Note: A [=Formal Objection=] always indicates a sustained objection,
+	but isn't necessary to express it
+	(except in some formal contexts such as [=AC Reviews=]).
+	Disagreement with a proposed decision,
+	however, does not always rise to the level of sustained objection,
+	as individuals could be willing to accept a decision
+	while expressing disagreement.
 
 	By default, the set of individuals eligible to participate in a decision is the set of group participants.
 	The Process Document does not require a quorum for decisions
@@ -2023,7 +2110,6 @@ Managing Dissent</h4>
 	In some cases, even after careful consideration of all points of view,
 	a group might find itself unable to reach consensus.
 	The [=Chair=] <em class="rfc2119">may</em> record a decision where there is [=dissent=]
-	(i.e., there is at least one <a href="#FormalObjection">Formal Objection</a>)
 	so that the group can make progress
 	(for example, to produce a deliverable in a timely manner).
 	Dissenters cannot stop a group's work
@@ -2039,6 +2125,8 @@ Managing Dissent</h4>
 	the [=Chair=] is expected to be aware of which participants work for the same
 	(or <a href="#MemberRelated">related</a>)
 	Member organizations and weigh their input accordingly.
+
+	Note: Dissenters can escalate their sustained objection to a decision by registering a [=Formal Objection=].
 
 <h4 id="Votes">
 Deciding by Vote</h4>
@@ -2165,53 +2253,323 @@ Reopening a Decision When Presented With New Information</h3>
 	that a decision has been reopened,
 	and <em class="rfc2119">must</em> do so upon request from a group participant.
 
-<h3 id="WGAppeals">
-[=Chair Decision=] and [=Group Decision=] Appeals</h3>
+<h3 id="registering-objections" oldids="WGArchiveMinorityViews, WGAppeals, wg-decision-appeal, chair-decision-appeal">
+Registering Formal Objections</h3>
 
-	When group participants believe that their concerns are not being duly considered by the group or the [=Chair=],
-	they <em class="rfc2119">may</em> ask the <a href="#def-Director">Director</a>
-	(for representatives of a Member organization, via their Advisory Committee representative)
-	to confirm or deny the decision.
-	This is a <dfn export id="wg-decision-appeal">Group Decision Appeal</dfn>
-	or a <dfn export id="chair-decision-appeal">Chair Decision Appeal</dfn>.
-	The participants <em class="rfc2119">should</em> also make their requests known
-	to the <a href="#TeamContact">Team Contact</a>.
-	The Team Contact <em class="rfc2119">must</em> inform the Director
-	when a group participant has raised concerns about due process.
+	Any individual
+	(regardless of whether they are associated with a Member)
+	<em class="rfc2119">may</em> appeal any decision made in connection with this Process
+	(except those having a different appeal process)
+	by registering a <dfn id="FormalObjection">Formal Objection</dfn> with the [=Team=].
+	Group participants <em class="rfc2119">should</em> inform
+	their <a href="#TeamContact">Team Contact</a> as well as the group's Chair(s).
+	The Team Contact <em class="rfc2119">must</em> inform the [=CEO=]
+	when a group participant has also raised concerns about due process.
 
-	Any requests to the Director to confirm a decision
+	Note: In this document, the term [=Formal Objection=] is used to emphasize this process implication:
+	Formal Objections receive formal consideration and a formal response.
+	The word “objection” used alone has its ordinary English connotations.
+	See [[#consensus-building]].
+
+	A [=Formal Objection=]
 	<em class="rfc2119">must</em> include a summary of
 	the issue (whether technical or procedural),
-	decision,
-	and rationale for the objection.
-	All counter-arguments,
-	rationales,
-	and decisions <em class="rfc2119">must</em> be recorded.
-
-	Procedures for <a href="#ACAppeal">Advisory Committee appeals</a> are described separately.
-
-<h3 id="WGArchiveMinorityViews">
-Recording and Reporting Formal Objections</h3>
-
-	In the W3C process,
-	an individual <em class="rfc2119">may</em> register a Formal Objection to a decision.
-	A <dfn id="FormalObjection">Formal Objection</dfn> to a group decision
-	is one that the reviewer requests that the Director consider
-	as part of evaluating the related decision
-	(e.g., in response to a <a href="#rec-advance">request to advance</a> a technical report).
-
-	Note: In this document, the term “Formal Objection” is used to emphasize this process implication:
-	Formal Objections receive Director consideration.
-	The word “objection” used alone has ordinary English connotations.
-
-	An individual who registers a [=Formal Objection=] <em class="rfc2119">should</em> cite technical arguments
+	the decision being appealed,
+	and the rationale for the objection.
+	It <em class="rfc2119">should</em> cite technical arguments
 	and propose changes that would remove the [=Formal Objection=];
 	these proposals <em class="rfc2119">may</em> be vague or incomplete.
 	[=Formal Objections=] that do not provide substantive arguments
 	or rationale are unlikely to receive serious consideration.
+	Counter-arguments,
+	rationales,
+	and decisions <em class="rfc2119">should</em> also be recorded.
 
-	A record of each [=Formal Objection=] <em class="rfc2119">must</em> be <a href="#confidentiality-change">publicly available</a>.
-	A Call for Review (of a document) to the Advisory Committee <em class="rfc2119">must</em> identify any [=Formal Objections=].
+	A record of each [=Formal Objection=] against a decision regarding a publicly-available document
+	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">publicly available</a>;
+	likewise, a record of each [=Formal Objection=] against a [=Member-only|Member-visible=] decision
+	<em class="rfc2119">must</em> be made <a href="#confidentiality-change">available to Members</a>.
+	A Call for Review to the Advisory Committee
+	<em class="rfc2119">must</em> identify any [=Formal Objections=]
+	related to that review.
+
+	Note: [=Formal Objections=] against matter in a [=technical report=]
+	are required to be addressed before <a href="#rec-advance">requesting advancement</a>
+	of the [=technical report=].
+
+	A [=Formal Objection=] filed during an [=Advisory Committee Review=]
+	is considered registered at the close of the review period.
+
+<h3 id=addressing-fo>
+Addressing Formal Objections</h3>
+
+<h4 id=team-fo-mediation>
+Investigation and Mediation by the Team</h4>
+
+	The [=Team=] considers the [=Formal objection=],
+	researches the question,
+	interviews parties,
+	and so on,
+	to make sure the problem and the various viewpoints are well understood,
+	and to the extent possible,
+	to arrive at a recommended disposition.
+	If the [=Team=] can resolve the issue
+	to the satisfaction of the individual that filed the [=Formal Objection=],
+	the individual withdraws the objection and the disposition process terminates.
+
+	Otherwise,
+	upon concluding that consensus cannot be found,
+	and no later than 90 days after the [=Formal Objection=] being registered,
+	the [=Team=] <em class=rfc2119>must</em> initiate formation of a [=W3C Council=],
+	which should be <a href="#council-convention">convened</a> within 45 days of being initiated.
+	Concurrently, it must prepare a report for the [=Council=]
+	documenting its findings and attempts to find consensus.
+
+<h4 id=council>
+W3C Council</h4>
+
+	A <dfn export local-lt="Council">W3C Council</dfn> is the body convened to resolve [=Formal Objections=]
+	by combining the capabilities and perspectives of the [=AB=], the [=TAG=], and the [=Team=],
+	and is tasked with doing so in the best interests of the Web and W3C.
+
+<h5 id=council-composition>
+Council Composition</h5>
+
+	Each [=W3C Council=] is composed of the following members (excepting any [[#council-participation|renounced or dismissed]]):
+	* the [=CEO=] or their chosen [=Team=] delegate
+	* the members of the [=Advisory Board=]
+	* the members of the [=Technical Architecture Group=]
+
+	Participation in a [=W3C Council=] <em class=rfc2119>must not</em> require attendance of [=face-to-face meetings=].
+
+	A distinct instance of the [=W3C Council=] is convened for each decision being appealed or objected to.
+	Membership of an instance the [=Council=] is be fixed at formation,
+	and is not changed by any [=AB=] or [=TAG=] elections
+	occurring before that Council has reached a conclusion.
+	However, if participation in a [=Council=] falls so low as to hinder effective and balanced deliberations,
+	the [=W3C Council Chair=] <em class="rfc2119">should</em> dissolve the [=Council=]
+	and call for a new one to be convened.
+
+	A [=Team=] member is assigned
+	to act as the <dfn export>Council Team Contact</dfn>,
+	to support this Council
+	and to facilitate adherence to this Process.
+
+<h5 id=council-delegation>
+Extraordinary Delegation</h5>
+
+	In extraordinary cases,
+	if they feel a [=Council=] would not be the appropriate deciding body,
+	a member of the [=Team=] (particularly the Legal Counsel) or
+	any potential Council member
+	may suggest that the decision for that specific Formal Objection be delegated
+	to the W3C Board of Directors,
+	to an officer of its corporation (such as the Legal Counsel),
+	or to one or more specific individuals from the [=Team=].
+	The potential Council members then <em class=rfc2119>may</em> confidentially discuss
+	and <em class=rfc2119>must</em> vote
+	whether to delegate the decision for that specific [=Formal Objection=].
+	A decision to delegate <em class=rfc2119>must</em> be supported by a two-thirds supermajority vote
+	(i.e., at least twice as many votes in favor as against).
+	Delegation in such cases cannot be later revoked.
+
+	The [=Team=] <em class=rfc2119>must</em> inform the [=Advisory Committee=]
+	when a [=Formal Objection=] has been delegated,
+	and to whom it has been delegated.
+
+
+<h5 id=council-participation>
+Council Participation, Dismissal, and Renunciation</h5>
+
+	In order to apply consistent criteria,
+	the potential Council members decide collectively
+	which reasons against service
+	rise to a sufficient level for a potential member to be <dfn lt="dismissed | dismiss | dismissal">dismissed</dfn>.
+	No-one is automatically dismissed,
+	and individual recusal is not used in the Council.
+	[=Dismissal=] applies to an individual person in the context of a specific Council,
+	and should be used rarely in order to preserve the greatest diversity on the Council.
+
+	Note: A W3C Council is a deliberative body whose purpose is
+	to find the best way forward for the Web and for W3C.
+	It is not a judicial body tasked with determining right or wrong.
+
+	The [=Team=] <em class=rfc2119>must</em> draft a list of potential [=Council=] members,
+	with annotations of possible reasons for dismissal against each one.
+	The W3C community,
+	including members and team, and potential council members,
+	<em class=rfc2119>must</em> be given an opportunity to contribute possible reasons to this list.
+	Affected members <em class=rfc2119>must</em> be given
+	an opportunity to respond to such comments about themselves.
+	The [=Team=] may report comments verbatim
+	or may paraphrase them while preserving their intent;
+	they may also elide inappropriate comments,
+	such as any that violate applicable laws or the [[CEPC]].
+
+	Before a Council forms,
+	the [=Team=] presents the entire list of potential members
+	and collected reasons and responses
+	to the potential Council members.
+	They then consider for each potential member
+	whether that individual's participation
+	would compromise the integrity of the Council decision,
+	and vote whether to dismiss that potential member.
+	No one is allowed to vote on their own dismissal;
+	each dismissal is decided by simple majority of those not abstaining.
+
+	Note: Since dismissal is individual,
+	when the decision being objected to was made by the [=TAG=] or [=AB=] acting as a body,
+	the entire [=TAG=] or [=AB=] is not expected or required to be dismissed.
+
+	An individual <em class=rfc2119>may</em> also <dfn lt="renounce | renunciation">renounce</dfn> their seat on a Council, for strong reason,
+	such as being forbidden by their employer to serve. The individual chooses the extent to which they explain
+	their renunciation.
+	Renunciation is disqualification from participation,
+	not abstention,
+	and <em class=rfc2119>should not</em> be used
+	to excuse an absence of participation.
+
+	Any person who has been [=dismissed=]
+	or who [=renounces=] their seat
+	does not receive [=Council=] materials,
+	take part in its deliberations,
+	help in the determination of consensus,
+	or vote.
+	The [=W3C Council=] <em class=rfc2110>may</em> still solicit and hear their testimony,
+	as they can of anyone else in the W3C community.
+
+<h5 id=council-short-circuit>
+Unanimous Short Circuit</h5>
+
+
+	The full Council process <em class=rfc2119>may</em> be short-circuited if
+	the Team recommends a resolution
+	and every potential member of a Council who is not renouncing their seat
+	votes affirmatively (no abstentions) to adopt this resolution.
+
+	This step <em class=rfc2119>may</em> be run concurrently with [[#council-participation]]
+	and prior to choosing a [=W3C Council Chair|Chair=].
+
+	Note: This is intended for exceptional cases
+	that don't seem to warrant a full Council response
+	because they are, for instance, too trivial, duplicative, etc.
+
+<h5 id=council-chairing>
+Council Chairing</h5>
+
+	The <dfn lt="W3C Council Chair">Chair</dfn> of each W3C Council is chosen by its members,
+	by consensus if possible,
+	falling back to a vote if that fails.
+	The chair must be a member of that [=W3C Council=].
+	Chair selection happens during formation of each Council,
+	and <em class=rfc2119>must</em> be re-run
+	if requested by the [=Council Team Contact=] or by the [=Chair=]
+	during the Council’s operation.
+
+<h5 id=council-deliberations>
+Council Deliberations</h5>
+
+	<p id=council-convention>
+	Upon appointment of the [=W3C Council Chair=]
+	and delivery of the [=Team=]’s report,
+	the [=W3C Council=] is considered to be convened
+	and can start deliberations.
+
+	Having reviewed the information gathered by the [=Team=],
+	the Council <em class=rfc2119>may</em> conduct additional research or analysis,
+	or request additional information or interviews from anyone,
+	including the Team.
+
+	<p id=broker-consensus>
+	The Council <em class=rfc2119>may</em>
+	further attempt to broker consensus,
+	which, if successful, disposes the formal objection.
+
+	Otherwise,
+	after sufficient deliberation,
+	the [=W3C Council=] decides whether to
+	<dfn>sustain</dfn> or <dfn>overrule</dfn> the objection.
+	The [=W3C Council=] <em class=rfc2119>may</em> [=overrule=] the [=Formal Objection=]
+	even if it agrees with some of the supportive arguments.
+
+	<p id=fo-mitigations>
+	When [=sustaining=] an objection,
+	it <em class=rfc2199>should</em> recommend a way forward.
+	If the overturned decision has already had consequences
+	(e.g., if the objection concerns material already in a published document)
+	the Council <em class=rfc2119>should</em> suggest how these consequences might be mitigated.
+	The [=Team=] is responsible for making sure that adequate mitigations are enacted in a timely fashion;
+	and the [=Formal Objection=] is not considered <dfn>fully addressed</dfn> until then.
+
+	Note: This does not create new powers for the [=Team=],
+	such as the ability to “unpublish” documents.
+	The [=Team=]'s role is to ensure the responsible parties enact adequate mitigations,
+	by whatever means they already have at their disposal.
+
+	A Council <em class=rfc2119>may</em> form sub-groups for deliberation,
+	who may return with a recommendation,
+	but the full Council issues the final decision.
+	The decision of the [=W3C Council=] <em class=rfc2119>should</em> be unanimous,
+	and <em class=rfc2119>may</em> be issued under consensus.
+	However, if despite careful deliberation
+	a [=W3C Council=] is unable to reach consensus,
+	the [=W3C Council Chair=] may instead resort to voting.
+	In that case,
+	the decision is made by simple majority,
+	with the [=W3C Council Chair=] breaking any tie.
+	In case of a vote,
+	if two members of a Council who share the same affiliation cast an identical ballot,
+	then their ballots count as a one vote,
+	not two.
+
+	In the case of non-unanimous decisions,
+	members of a [=W3C Council=] who disagree with the decision
+	<em class=rfc2119>may</em> write a <dfn>Minority Opinion</dfn>
+	explaining the reason for their disagreement.
+
+	The deliberations of a [=W3C Council=] are confidential to that [=W3C Council=]
+	and its [=Council Team Contact=].
+
+	If a [=W3C Council=] is unable to come to a conclusion within 45 days of being <a href="#council-convention">convened</a>,
+	the [=W3C Council Chair=] <em class=rfc2119>must</em> inform the [=AC=] of this delay
+	and of the status of the discussions.
+	The [=W3C Council Chair=] <em class=rfc2119>may</em> additionally make this report <a href="#confidentiality-levels">public</a>.
+
+<h5 id=council-decision>
+Council Decision Report</h5>
+
+	A [=Council=] terminates by issuing a <dfn export>Council Report</dfn>,
+	which:
+	* <em class=rfc2119>must</em> state whether the Council [=sustains=] or [=overrules=] the objection(s).
+	* <em class=rfc2119>must</em> provide a rationale supporting the decision,
+		which <em class=rfc2119>should</em> address each argument raised in the Formal Objection(s).
+	* <em class=rfc2119>must</em> include any recommendation decided by the [=Council=].
+	* if the [=Formal Objection=] has been sustained, <em class=rfc2119>should</em> include any suggested <a href="#fo-mitigations">mitigations</a>.
+	* <em class=rfc2119>must</em> include the [=Minority Opinion=](s), if any.
+	* <em class=rfc2119>must</em> report the names of those who were [=dismissed=] or [=renounced=] their seat as well as those who were qualified to serve.
+	* <em class=rfc2119>must</em> report the names of the individuals who participated in the final decision.
+	* <em class=rfc2119>may</em> report vote totals, if any vote was held.
+	* <em class=rfc2119>must not</em> attribute any position to any individual on the Council.
+
+	The [=Team=] <em class=rfc2119>must</em> maintain a [[COUNCIL-REPORT-INDEX inline|public page on the W3C website]]
+	indexing all completed [=Council Reports=].
+	If a Council decision is later overturned by an [=AC Appeal=],
+	this <em class=rfc2119>must</em> also be mentioned.
+	[=Council Reports=] <em class=rfc2119>must</em> be no more confidential
+	than the decision or document being objected to.
+
+	The [=Council=] <em class=rfc2119>may</em> also issue a <dfn export>Supplemental Confidential Council Report</dfn>
+	with a more restricted <a href="#confidentiality-levels">level of confidentiality</a> than its main report
+	when it believes that additional commentary on confidential aspects of the case
+	would be informative.
+	However, the main [=Council Report=] <em class=rfc2119>should</em> be self-sufficient
+	and understandable without reference to Supplemental Confidential Council Reports.
+
+<h5 id=council-appeals>
+Appealing Council Decisions</h5>
+
+	[=Advisory Committee representatives=] <em class=rfc2119>may</em> initiate an [=Advisory Committee Appeal=]
+	of a Council decision issued in a [=Council Report=].
 
 <h3 id="ACReview">
 Advisory Committee Reviews</h3>
@@ -2233,6 +2591,10 @@ Start of a Review Period</h4>
 	and includes other practical information.
 	Each Member organization <em class="rfc2119">may</em> send one review,
 	which <em class="rfc2119">must</em> be returned by its [=Advisory Committee representative=].
+
+	For clarity,
+	in the context of an [=AC Review=],
+	[=dissent=] <em class=rfc2119>must</em> be expressed as a [=Formal Objection=].
 
 	The Team <em class="rfc2119">must</em> provide two channels for Advisory Committee review comments:
 
@@ -2261,32 +2623,70 @@ Start of a Review Period</h4>
 After the Review Period</h4>
 
 	After the review period,
-	the [=Director=] <em class="rfc2119">must</em> announce
-	to the [=Advisory Committee=]
+	the [=Team=] determines the appropriate [=W3C Decision=],
+	which they <em class=rfc2119>must</em> announce to the [=Advisory Committee=].
+	The announcement <em class="rfc2119">must</em> indicate
 	the level of support for the proposal
-	([=consensus=] or [=dissent=]).
-	The [=Director=] <em class="rfc2119">must</em> also indicate
+	([=consensus=] or [=dissent=]),
+	and specifically
 	whether there were any [=Formal Objections=],
-	with attention to <a href="#confidentiality-change">changing confidentiality level</a>.
-	This [=W3C decision=] is generally one of the following:
+	with attention to <a href="#confidentiality-change">changing the confidentiality level</a> of the [=Formal Objections=].
 
-	<ol>
+	If there is [=dissent=]
+	(i.e., there were [=Formal Objections=], at least some of which were sustained)
+	or if there is not [=consensus=] because of insufficient support,
+	[=W3C Decision=] <em class=rfc2119>must</em> be one of:
+
+	<ul>
 		<li>
-			The proposal is approved,
-			possibly with [=editorial changes=] integrated.
-
-		<li>
-			The proposal is approved,
-			possibly with [=substantive changes=] integrated.
-			In this case the announcement <em class="rfc2119">must</em> include rationale
-			for the decision to advance the document despite the proposal for a substantive change.
-
-		<li>The proposal is returned for additional work,
-			with a request to the initiator to [=formally address=] certain issues.
+			The proposal is returned for additional work,
+			with a request to the initiator to improve the proposal.
 
 		<li>
 			The proposal is rejected.
-	</ol>
+	</ul>
+
+	If the proposal has [=consensus=],
+	or if any [=Formal Objections=] are retracted or overruled
+	and the proposal otherwise has sufficient support to achieve [=consensus=],
+	this [=W3C Decision=] <em class=rfc2119>must</em> be one of:
+
+	<ul>
+		<li>
+			The proposal is adopted,
+			possibly with additional changes integrated
+			in order to address the comments of the [=AC=]
+			(see below).
+
+		<li>
+			The proposal is returned for additional work,
+			with a request to the initiator to make desirable changes identified during the review
+			and to resubmit.
+	</ul>
+
+	If the proposal is adopted with changes other than <a href="#class-1">class 1 (markup) changes</a>,
+	then those changes <em class=rfc2119>must</em> be announced to the [=AC=]
+	and to the [=Group=] that owns the document (if any).
+
+	Additionally, when adopting a proposal with [=substantive changes=] integrated,
+	the announcement <em class="rfc2119">must</em> include rationale
+	for the substantive changes,
+	and those changes must have the [=consensus=]
+	of the subset of the [=AC=] that voted on the proposal
+	(including anyone who explicitly abstained).
+	For publications which have conditions in addition to [=AC=] approval
+	for introducing [=substantive changes=]
+	(such as [=Group=] consensus or implementation experience),
+	those other conditions must also be re-fulfilled.
+
+	<div class="example">
+		For example, to make [=substantive changes=] to a [=Proposed Recommendations=],
+		the [=technical report=] could be returned to [=Candidate Recommendation=].
+		Alternatively, the desired changes can be introduced as non-substantive amendments
+		using the process for [[#revising-rec|revising a Recommendation]].
+		However, they cannot be directly integrated between [=PR=] and [=REC=],
+		because that would fail to trigger a patent exclusion opportunity.
+	</div>
 
 	This document does not specify
 	time intervals between the end of an [=Advisory Committee review=] period
@@ -2297,7 +2697,7 @@ After the Review Period</h4>
 	The [=Advisory Committee=] <em class="rfc2119">should not</em> expect an announcement
 	sooner than <span class="time-interval">two weeks</span> after the end of a review period.
 	If, after <span class="time-interval">three weeks</span>, the outcome has not been announced,
-	the [=Director=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
+	the [=Team=] <em class="rfc2119">should</em> provide the [=Advisory Committee=] with an update.
 
 <h3 id="ACVotes">
 Advisory Committee Votes</h3>
@@ -2318,24 +2718,31 @@ Appeal by Advisory Committee Representatives</h3>
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate
 	an <dfn export lt="Advisory Committee Appeal|AC Appeal| Appeal">Advisory Committee Appeal</dfn>.
 	These [=W3C decisions=] include those related to group creation and modification,
-	and transitions to new maturity levels for Recommendation Track documents
+	and transitions to new maturity stages for Recommendation Track documents
 	and the Process document.
 
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> also initiate an appeal
+	for decisions of a [=W3C Council=], and
 	for certain decisions that do not involve an [=Advisory Committee review=].
 	These cases are identified in the sections
 	which describe the requirements for the decision
 	and include
-	additional (non-reviewed) maturity levels of Recommendation Track documents,
+	additional (non-reviewed) maturity stages of Recommendation Track documents,
 	group [=charter extensions=] and closures,
 	and [=Memoranda of Understanding=].
 
 	In all cases,
 	an [=appeal=] <em class="rfc2119">must</em> be initiated within <span class="time-interval">three weeks</span> of the decision.
 
-	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=].
-	The request should say “I appeal this Director's Decision”
-	and identify the decision.
+	An [=Advisory Committee representative=] initiates an [=appeal=] by sending a request to the [=Team=],
+	and should also share this request with the [=Advisory Committee=].
+	The request should say “I appeal this Decision”
+	and identify the decision,
+	and may also include their rationale for appealing the decision.
+
+	Note: See [[DECISION-APPEAL inline]] for a recommendation
+	on how to communicate an appeal request to the [=Team=] and the [=AC=].
+
 	Within one week the [=Team=] <em class="rfc2119">must</em> announce the appeal process
 	to the [=Advisory Committee=]
 	and provide a mechanism for [=Advisory Committee representatives=]
@@ -2345,8 +2752,8 @@ Appeal by Advisory Committee Representatives</h3>
 	5% or more of the [=Advisory Committee=] support the appeal request,
 	the Team <em class="rfc2119">must</em> organize an appeal vote
 	asking the [=Advisory Committee=]
-	“Do you approve of the Director's Decision?”
-	together with links to the [=Director=]'s decision and the appeal support.
+	“Do you approve of the Decision?”
+	together with links to the decision and the appeal support.
 
 	The ballot <em class="rfc2119">must</em> allow for three possible responses:
 	“Approve”,
@@ -2461,7 +2868,7 @@ Publication of Technical Reports</h4>
 	at their original address in their original form.
 
 	Every document published as part of the technical report development process
-	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-levels">maturity level</a>,
+	<em class="rfc2119 old">must</em> clearly indicate its <a href="#maturity-stages">maturity stage</a>,
 	and <em id="DocumentStatus" class="rfc2119">must</em> include information about the status of the document.
 	This status information:
 
@@ -2514,7 +2921,7 @@ Publication of Technical Reports</h4>
 	The primary language for W3C [=Technical Reports=] is English.
 	W3C encourages the translation of its [=Technical Reports=].
 	<a href="https://www.w3.org/Consortium/Translation/">Information about translations of W3C technical reports</a> [[TRANSLATION]]
-	is available at the W3C Web site.
+	is available at the W3C website.
 
 <h4 id="doc-reviews">
 Reviews and Review Responsibilities</h4>
@@ -2546,7 +2953,7 @@ Wide Review</h5>
 	early enough that comments and suggested changes
 	can still be reasonably incorporated in response to the review.
 	Before approving transitions,
-	the [=Director=] will consider who has been explicitly offered
+	the [=Team=] will consider who has been explicitly offered
 	a reasonable opportunity to review the document,
 	who has provided comments,
 	the record of requests to and responses from reviewers,
@@ -2585,7 +2992,7 @@ Wide Review</h5>
 Classes of Changes</h4>
 
 
-	This document distinguishes the following 5 classes of changes to a specification.
+	This document distinguishes the following 5 classes of changes to a document.
 	The first two classes of change are considered <dfn lt="editorial change">editorial changes</dfn>,
 	the next two <dfn lt="substantive change">substantive changes</dfn>,
 	and the last one <dfn lt="registry change">registry changes</dfn>.
@@ -2594,12 +3001,14 @@ Classes of Changes</h4>
 		<dt id=class-1>
 			1. No changes to text content
 		<dd>
-			These changes include fixing broken links, style sheets or invalid markup.
+			These changes include fixing broken links, style sheets, or invalid markup.
 
 		<dt id=class-2>
-			2. Corrections that do not affect conformance
+			2. Changes that do not functionally affect interpretation of the document
 		<dd>
-			Changes that reasonable implementers
+			For [=Recommendation-track=] [=technical reports=] specifically,
+            this constitutes changes that do not affect conformance,
+            i.e. changes that reasonable implementers
 			would not interpret as changing architectural
 			or interoperability requirements
 			or their implementation.
@@ -2608,19 +3017,21 @@ Classes of Changes</h4>
 			and do not fall into this class.
 		<dd>
 			Examples of changes in this class include
-			correcting non-normative code examples
-			where the code clearly conflicts with normative requirements,
+			correcting non-normative examples
+			which clearly conflict with normative requirements,
 			clarifying informative use cases or other non-normative text,
 			fixing typos or grammatical errors
-			where the change does not change implementation requirements.
+			where the change does not change requirements.
+		<dd>
 			If there is any doubt or disagreement
-			as to whether requirements are changed,
-			such changes do not fall into this class.
+			as to whether a change functionally affects interpretation,
+			that change does not fall into this class.
 
 		<dt id=class-3>
-			3. Corrections that do not add new features
+			3. Other changes that do not add new features
 		<dd>
-			These changes <em class="rfc2119">may</em> affect conformance to the specification.
+			For [=Recommendation-track=] documents,
+            these changes <em class="rfc2119">may</em> affect conformance to the specification.
 			A change that affects conformance is one that:
 
 			<ul>
@@ -2642,7 +3053,8 @@ Classes of Changes</h4>
 		<dt id=class-4>
 			4. New features
 		<dd>
-			Changes that add a new functionality, element, etc.
+			Changes that add new functionality,
+			such as new elements, new APIs, new rules, etc.
 
 		<dt id=class-5>
 			5. Changes to the contents of a [=registry table=]
@@ -2690,7 +3102,7 @@ Errata Management</h4>
 Candidate Amendments</h4>
 
 	An [=erratum=] <em class="rfc2119">may</em> be accompanied by an informative,
-	<dfn>candidate correction</dfn> approved by the consensus of the [=Working Group=].
+	<dfn>candidate correction</dfn> approved by [=group decision=].
 	When annotated inline,
 	errata--
 	including their [=candidate corrections=]--
@@ -2724,7 +3136,7 @@ Candidate Amendments</h4>
 	[=Candidate corrections=] and [=candidate additions=] are collectively known as
 	<dfn lt="candidate amendment">candidate amendments</dfn>.
 
-	In addition to their actual [[#maturity-levels|maturity level]],
+	In addition to their actual [[#maturity-stages|maturity stage]],
 	[=published=] [=REC Track=] documents with [=candidate amendments=] are also considered,
 	for the purpose of the W3C Patent Policy [[PATENT-POLICY]],
 	to be [=Working Drafts=] with those [=candidate amendments=] treated as normative.
@@ -2787,17 +3199,14 @@ The W3C Recommendation Track</h3>
 
 	W3C <em class="rfc2119">may</em> <a href="#tr-end">end work on a technical report</a> at any time.
 
-	The Director <em class="rfc2119">may</em> decline a request to advance in maturity level,
-	requiring a [=Working Group=] to conduct further work,
-	and <em class="rfc2119">may</em> require
-	the specification to return to a lower <a href="#maturity-levels">maturity level</a>.
-	The [=Team=] <em class="rfc2119">must</em> inform the <a href="#AC">Advisory Committee</a>
-	and [=Working Group=] [=Chairs=] when a [=Working Group=]'s request
-	for a specification to advance in maturity level is declined
-	and the specification is returned to a [=Working Group=] for further work.
+	As described in [[#transition-reqs]],
+	the [=Team=] will decline a request to advance in maturity stage
+	and return the specification to a [=Working Group=] for further work
+	if it determines that the requirements for advancement
+	have not been met.
 
-<h4 id="maturity-levels">
-Maturity Levels on the Recommendation Track</h4>
+<h4 id="maturity-stages" oldids="maturity-levels">
+Maturity Stages on the Recommendation Track</h4>
 
 	<dl>
 		<dt>
@@ -2868,7 +3277,7 @@ Maturity Levels on the Recommendation Track</h4>
 
 			<dl>
 				<dt>
-					<dfn>Candidate Recommendation Snapshot</dfn>
+					<dfn export lt="Candidate Recommendation Snapshot | CRS">Candidate Recommendation Snapshot</dfn> (<abbr>CRS</abbr>)
 				<dd>
 					A Candidate Recommendation Snapshot
 					corresponds to a [=Patent Review Draft=]
@@ -2878,12 +3287,12 @@ Maturity Levels on the Recommendation Track</h4>
 					in the W3C Patent Policy.
 
 					Publication as a [=Candidate Recommendation Snapshot=]
-					requires approval of either a [=Transition Request=]
-					(for the first [=Candidate Recommendation=] publication from another maturity level)
+					requires verification of either a [=Transition Request=]
+					(for the first [=Candidate Recommendation=] publication from another maturity stage)
 					or an [=Update Request=]
 					(for subsequent [=Candidate Recommendation Snapshots=]).
 				<dt>
-					<dfn>Candidate Recommendation Draft</dfn>
+					<dfn export lt="Candidate Recommendation Draft | CRD">Candidate Recommendation Draft</dfn> (<abbr>CRD</abbr>)
 				<dd>
 					A Candidate Recommendation Draft
 					is published on the <a href="https://www.w3.org/TR/">W3C's Technical Reports page</a> [[TR]]
@@ -3022,7 +3431,7 @@ Implementation Experience</h4>
 	of each feature of the specification will be realized.
 	While no exhaustive list of requirements is provided here,
 	when assessing that there is <dfn id="adequate-implementation">adequate implementation experience</dfn>
-	the [=Director=] will consider (though not be limited to):
+	the [=Team=] will consider (though not be limited to):
 
 	<ul>
 		<li>
@@ -3058,7 +3467,7 @@ Implementation Experience</h4>
 Advancement on the Recommendation Track</h4>
 
 	For <em>all</em> requests to advance a specification
-	to a new maturity level
+	to a new maturity stage
 	(called <dfn id=trans-req export>Transition Requests</dfn>),
 	the Working Group:
 
@@ -3067,7 +3476,15 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> record the group's decision to request advancement.
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval.
+			<em class="rfc2119">must </em> obtain [=Team=] verification.
+			[=Team=] verification (a [=Team decision=])
+			<em class=rfc2119>must</em> be withheld if any Process requirements are not met
+			or if there remain any unresolved Formal Objections
+			(including any [=sustained=] by a [=Council=] but not yet [=fully addressed=]),
+			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
+			If the [=Team=] rejects a [=Transition Request=]
+			it <em class=rfc2119>must</em> indicate its rationale
+			to the [=Advisory Committee=] and the [=Working Group=].
 
 		<li>
 			<em class="rfc2119 ">must</em> publicly document all new features
@@ -3084,7 +3501,7 @@ Advancement on the Recommendation Track</h4>
 			and <em class="rfc2119">may</em> document the details of such changes.
 		<li>
 			<em class="rfc2119">must</em> [=formally address=] all issues
-			raised about the document since the previous <a href="#maturity-levels">maturity level</a>.
+			raised about the document since the previous <a href="#maturity-stages">maturity stage</a>.
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
@@ -3100,13 +3517,13 @@ Advancement on the Recommendation Track</h4>
 			<em class="rfc2119">should</em> provide information about implementations known to the [=Working Group=].
 	</ul>
 
-	For a [=First Public Working Draft=] there is no “previous maturity level”,
+	For a [=First Public Working Draft=] there is no “previous maturity stage”,
 	so many requirements do not apply,
-	and approval is normally fairly automatic.
+	and verification is normally fairly straightforward.
 	For later stages,
 	especially transition to [=Candidate Recommendation|Candidate=] or [=Proposed Recommendation=],
 	there is usually a formal review meeting
-	to ensure the requirements have been met before approval is given.
+	to verify that the requirements have been met.
 
 	[=Transition Requests=] to [=First Public Working Draft=]
 	or [=Candidate Recommendation=]
@@ -3118,9 +3535,9 @@ Advancement on the Recommendation Track</h4>
 Updating Mature Publications on the Recommendation Track</h4>
 
 	Certain requests to re-publish a specification
-	within its current maturity level
+	within its current maturity stage
 	(called <dfn export>Update Requests</dfn>)
-	require [=Director=] approval.
+	require extra verification.
 	For such [=update requests=], the Working Group:
 
 	<ul>
@@ -3131,8 +3548,18 @@ Updating Mature Publications on the Recommendation Track</h4>
 			<em class="rfc2119">must</em> show that the changes have received [=wide review=].
 
 		<li>
-			<em class="rfc2119">must </em> obtain [=Director=] approval,
+			<em class="rfc2119">must </em> obtain [=Team=] verification,
 			or fulfill the criteria for [[#streamlined-update]].
+			[=Team=] verification (a [=Team decision=]),
+			<em>should</em> be withheld if any Process requirements are not met,
+			and <em class=rfc2119>may</em> be withheld in consideration of unresolved Formal Objections
+			(including any [=sustained=] by a [=Council=] but not yet [=fully addressed=])
+			or if the document does not adequately reflect all relevant decisions of the [=W3C Council=] (or its delegates).
+			If the [=Team=] rejects an [=Update Request=],
+			it must indicate its rationale to the [=Working Group=].
+			If it waives any Process requirements,
+			it must indicate its rationale to the [=AC=].
+
 
 		<li>
 			<em class="rfc2119">must</em> provide public documentation of any [=Formal Objections=].
@@ -3168,10 +3595,10 @@ Updating Mature Publications on the Recommendation Track</h4>
 	</ul>
 
 	There is usually a formal review meeting
-	to ensure the requirements have been met before [=Director=]'s approval is given.
+	to verify that the requirements have been met.
 
-	Note: [=Update request=] approval is expected to be fairly simple
-	compared to getting approval for a [=transition request=].
+	Note: [=Update request=] verification is expected to be fairly simple
+	compared to verification of a [=transition request=].
 
 	The [=Team=] <em class="rfc2119">must</em> announce the publication
 	of the revised specification
@@ -3187,7 +3614,7 @@ Streamlined Publication Approval</h5>
 	and to make self-evaluation practical.
 
 	In order to streamline the publication process in non-controversial cases,
-	approval to an [=update request=] is automatically granted without formal review
+	verification of an [=update request=] is automatically granted without formal review
 	when the following <em>additional</em> criteria are fulfilled:
 
 	<ul>
@@ -3240,7 +3667,7 @@ Streamlined Publication Approval</h5>
 			that all changes have been implemented in at least 2 distinct products by 2 different implementers,
 			as evidenced by passing tests of a test suite
 			providing extensive coverage of the changes,
-			or an alternative streamlined approval implementation requirement
+			or an alternative streamlined verification implementation requirement
 			described in the [=working Group=] charter has been met.
 
 			Note: This is stricter than the general criteria for [=adequate implementation experience=].
@@ -3340,6 +3767,7 @@ Transitioning to Candidate Recommendation</h4>
 
 		<li>
 			<em class="rfc2119">must</em> specify the deadline for comments,
+			delineating the <dfn>Candidate Recommendation review period</dfn>,
 			which <em class="rfc2119">must</em> be <strong>at least</strong> 28 days after publication,
 			and <em class="rfc2119">should</em> be longer for complex documents,
 
@@ -3354,7 +3782,7 @@ Transitioning to Candidate Recommendation</h4>
 	</ul>
 
 	The first Candidate Recommendation publication
-	after approval of a [=Transition Request=]
+	after verification of having met the requirements for a [=Transition Request=]
 	is always a [=Candidate Recommendation Snapshot=].
 	The [=Team=] <em class="rfc2119">must</em> announce
 	the publication of the [=Candidate Recommendation Snapshot=]
@@ -3499,18 +3927,18 @@ Transitioning to Proposed Recommendation</h4>
 	<ul>
 		<li>
 			<em class="rfc2119">must</em> show [=adequate implementation experience=]
-			except where an exception is approved by the [=Director=],
+			except where an exception is approved by a [=Team Decision=],
 		<li>
 			<em class="rfc2119">must</em> show that the document has received [=wide review=],
 
 		<li>
 			<em class="rfc2119">must</em> show that all issues
-			raised during the [=Candidate Recommendation=] review period
+			raised during the [=Candidate Recommendation review period=]
 			have been [=formally addressed=],
 
 		<li>
 			<em class="rfc2119">must </em>identify any substantive issues
-			raised since the close of the [=Candidate Recommendation=] review period,
+			raised since the close of the [=Candidate Recommendation review period=],
 
 		<li>
 			<em class=rfc2119>must not</em> have made any [=substantive changes=] to the document
@@ -3523,7 +3951,7 @@ Transitioning to Proposed Recommendation</h4>
 			without republishing the specification as a [=Candidate Recommendation Snapshot=].
 	</ul>
 
-	The Director:
+	The [=Team=]:
 
 	<ul>
 		<li>
@@ -3536,7 +3964,9 @@ Transitioning to Proposed Recommendation</h4>
 			<em class="rfc2119">may</em> approve a [=Proposed Recommendation=]
 			with minimal <a href="#implementation-experience">implementation experience</a>
 			where there is a compelling reason to do so.
-			In such a case, the [=Director=] <em class="rfc2119">should</em> explain the reasons for that decision.
+			In such a case, the [=Team=] <em class="rfc2119">must</em> explain the reasons for that decision,
+			and that information <em class=rfc2119>must</em> be included in the [=Call for Review=]
+			proposing advancement to [=W3C Recommendation=].
 	</ul>
 
 	Since a [=W3C Recommendation=] <em class="rfc2119">must not</em> include any [=substantive changes=]
@@ -3594,7 +4024,7 @@ Transitioning to W3C Recommendation</h4>
 
 		<li>
 			If there was any [=dissent=] in Advisory Committee reviews,
-			the [=Director=] <em class="rfc2119">must</em> publish the substantive content of the dissent
+			the [=Team=] <em class="rfc2119">must</em> publish the substantive content of the dissent
 			to W3C and the general public,
 			and <em class="rfc2119">must</em> [=formally address=] the comment
 			at least 14 days before publication as a [=W3C Recommendation=].
@@ -3654,7 +4084,7 @@ Revising a Recommendation: Editorial Changes</h5>
 	A [=Working Group=],
 	provided there are no votes against the [=group decision|decision=] to publish,
 	<em class="rfc2119">may</em> request publication of a [=Recommendation=]
-	to make this class of change without passing through earlier maturity levels.
+	to make this class of change without passing through earlier maturity stages.
 	(See <a href="#correction-classes">class 2 changes</a>.)
 
 	If there is no [=Working Group=] chartered to maintain a [=Recommendation=],
@@ -3784,6 +4214,19 @@ Incorporating Candidate Amendments</h5>
 	(Thus if incorporation of a [=proposed amendment=] is postponed,
 	it may need to be included in multiple Last Calls for Review of Proposed Amendments.)
 
+<h4 id=rec-track-regression>
+Regression on the Recommendation Track</h4>
+
+	A [=Working Group=] may republish a [=Recommendation-track=] [=technical report=] at a lower <a href="#maturity-stages">maturity stage</a>
+	by fulfilling the requirements to transition to that maturity stage,
+	as described above.
+
+	Additionally,
+	with the approval of the [=TAG=] and the [=AB=]
+	the [=Team=] <em class="rfc2119">may</em> return
+	the [=technical report=] to a lower <a href="#maturity-stages">maturity stage</a>
+	in response to [=wide review=] or a [=formal objection=].
+
 <h4 id="tr-end">
 Retiring Recommendation Track Documents</h4>
 
@@ -3877,7 +4320,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	superseding,
 	or restoring
 	a [=Recommendation=] can be initiated
-	either by a request from the [=Director=]
+	either by a request from the [=Team=]
 	or via a request from any of the following:
 
 	<ul>
@@ -3905,7 +4348,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	obsolete,
 	supersede,
 	or restore
-	a [=Recommendation=] the [=Director=] <em class="rfc2119">must</em>:
+	a [=Recommendation=] the [=Team=] <em class="rfc2119">must</em>:
 
 	<ul>
 		<li>
@@ -3948,7 +4391,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	</ul>
 
 	If there was any [=dissent=] in the [=Advisory Committee review=],
-	the [=Director=] <em class="rfc2119">must</em> publish
+	the [=Team=] <em class="rfc2119">must</em> publish
 	the substantive content of the dissent to W3C
 	<strong>and the public</strong>,
 	and <em class="rfc2119">must</em> [=formally address=] the dissent
@@ -3956,7 +4399,7 @@ Process for Rescinding, Obsoleting, Superseding, Restoring a Recommendation</h5>
 	before publication as an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=].
 
 	The <a href="#AC">Advisory Committee</a> <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the [=Director=]'s decision.
+	of the [=Team=]'s decision.
 
 	W3C <em class="rfc2119">must</em> publish an [=Obsolete Recommendation|Obsolete=] or [=Rescinded Recommendation=]
 	with up to date status.
@@ -4036,7 +4479,7 @@ Publishing Notes</h4>
 	the [=Team=] <em class=rfc2119>may</em> republish the [=Note=] with [[#correction-classes|class 1]] changes incorporated,
 	as well as with [=errata=] and [=Team corrections=] annotated.
 
-<h4 id=memo>
+<h4 id=w3c-statement oldids=memo>
 Elevating Group Notes to W3C Statement status</h4>
 
 	A <dfn lt="Statement | W3C Statement">W3C Statement</dfn> is a [=Note=]
@@ -4104,10 +4547,10 @@ Revising W3C Statements</h4>
 <h3 id="registries">
 The Registry Track</h3>
 
-	A <dfn>registry</dfn> documents a data set
-	consisting of one or more associated <dfn lt="registry table">registry tables</dfn>,
+	A <dfn export>registry</dfn> documents a data set
+	consisting of one or more associated <dfn export lt="registry table">registry tables</dfn>,
 	each table representing an updatable collection
-	of logically independent, consistently-structured <dfn lt="registry entry">registry entries</dfn>.
+	of logically independent, consistently-structured <dfn export lt="registry entry">registry entries</dfn>.
 	A registry has three associated components:
 	<ul>
 		<li>the [=registry definition=], defining how the [=registry tables=] are structured and maintained
@@ -4161,7 +4604,7 @@ The Registry Track</h3>
 <h4 id=reg-def>
 Registry Definitions</h4>
 
-	A <dfn>registry definition</dfn>
+	A <dfn export>registry definition</dfn>
 	defines what each [=registry table=] is and how it is maintained.
 	It <em class=rfc2119>must</em>:
 
@@ -4192,7 +4635,7 @@ Registry Definitions</h4>
 			or that they do or do not need to be approved by any member of a particular Working Group.)
 
 		<li>
-			Identify the <dfn>custodian</dfn> of the [=registry table=]:
+			Identify the <dfn export>custodian</dfn> of the [=registry table=]:
 			the entity to which requests for [=registry changes=] must be sent,
 			and which is responsible for evaluating whether such requests
 			satisfy the criteria defined in the [=registry definition=].
@@ -4315,7 +4758,7 @@ Updating Registry Tables</h4>
 	(not even Working Group consensus, unless this is required by the [=registry definition=]).
 	Such [=registry changes=] do not trigger new [=Advisory Committee Reviews=],
 	nor Exclusion Opportunities,
-	and do not require approval via an [=update request=],
+	and do not require verification via an [=update request=],
 	even for [=technical reports=] at maturities where this would normally be expected.
 	Such publications can be made
 	even in the absence of a [=Working Group=] chartered to maintain the registry
@@ -4324,7 +4767,7 @@ Updating Registry Tables</h4>
 	Note: The custodian is only empowered to make [=registry changes=].
 	If the Working Group establishing the registry wishes
 	to empower the custodian to add commentary on individual entries,
-	this needs to be part of the registry table’s defintion.
+	this needs to be part of the registry table’s definition.
 	If other changes are desired,
 	they must be requested of the responsible Working Group--
 	or in the absence of a Working Group, of the Team.
@@ -4352,8 +4795,8 @@ Registry Data Reports</h4>
 			(Changes to these parts are deemed to be [=editorial changes=]).
 	</ul>
 
-	[=Registry Data Reports=] do not have maturity levels in and of themselves;
-	The maturity level of the [=registry=] whose [=registry data|data=] they record
+	[=Registry Data Reports=] do not have maturity stages in and of themselves;
+	The maturity stage of the [=registry=] whose [=registry data|data=] they record
 	is that of the [=technical report=] holding the [=registry definition=].
 
 	Anytime a change is made to a [=registry definition=],
@@ -4417,12 +4860,12 @@ Switching Tracks</h3>
 		<li>
 			A [=technical report=] should not switch away from the [=Recommendation Track=]
 			without due consideration of the Patent Policy implications
-			and approval of the W3C’s legal counsel
+			and approval of W3C’s legal counsel
 			if the [=Working Group=] envisions a likelihood of returning to it later.
 	</ul>
 
 	[=Technical reports=] that switch tracks start at
-	their new track’s initial maturity level,
+	their new track’s initial maturity stage,
 	while retaining any established identity (url, shortname, etc.).
 
 <h3 id="further-reading">
@@ -4443,7 +4886,7 @@ Public Communication</h3>
 
 	The [=Team=] is responsible for managing communication within W3C
 	and with the general public
-	(e.g., news services, press releases, managing the Web site and access privileges, and managing calendars).
+	(e.g., news services, press releases, managing the website and access privileges, and managing calendars).
 	Members <em class="rfc2119">should</em> solicit review by the Team
 	prior to issuing press releases about their work within W3C.
 
@@ -4452,9 +4895,8 @@ Public Communication</h3>
 	<ul>
 		<li>
 			<a href="#Reports">W3C technical reports</a> whose publication has been approved.
-			Per the Membership Agreement,
-			W3C technical reports (and software) are available free of charge to the general public;
-			(refer to the <a href="https://www.w3.org/Consortium/Legal/copyright-documents">W3C Document License</a> [[DOC-LICENSE]]).
+			Per [[W3C-IPR inline]],
+			W3C technical reports (and software) are available free of charge to the general public.
 
 		<li>
 			A <a href="https://www.w3.org/Consortium/mission">mission statement</a> [[MISSION]]
@@ -4486,7 +4928,7 @@ Public Communication</h3>
 Confidentiality Levels</h3>
 
 	There are three principal levels of access to W3C information
-	(on the W3C Web site, in W3C meetings, etc.):
+	(on the W3C website, in W3C meetings, etc.):
 	public,
 	Member-only,
 	and Team-only.
@@ -4642,32 +5084,47 @@ Liaisons</h2>
 	confidentiality agreements;
 	and mutual membership agreements.
 
-	The [=CEO=] <em class="rfc2119">may</em> negotiate
-	a Memorandum of Understanding with another organization.
-	For the purposes of the W3C Process a <dfn id="mou" export lt="Memorandum of Understanding | Memoranda of Understanding | MoU">Memorandum of Understanding</dfn> (<abbr>MoU</abbr>)
-	is a formal agreement or similar contractual framework between W3C and another party or parties,
-	other than agreements between the [=Hosts=]
-	or between [=Hosts=] and W3C members
-	for the purposes of membership
-	and agreements related to the ordinary provision of services
-	for the purposes of running W3C,
-	that specifies rights and obligations of each party toward the others.
+	W3C <em class="rfc2119">may</em> negotiate
+	[=technical agreements=] with another organization.
+	For purposes of the W3C Process,
+	a <dfn local-lt="agreement">technical agreement</dfn> is a formal contract,
+	or a Memorandum of Understanding (<abbr id=mou>MoU</abbr>),
+	or a similar document,
+	between W3C and another party or parties,
+	that relates to the technical activity of the Consortium
+	(e.g., its publications, groups, or liaisons).
+	It specifies rights and obligations of each party toward the others.
 	These rights and obligations <em class="rfc2119">may</em> include joint deliverables,
 	an agreed share of technical responsibilities with due coordination,
 	and/or considerations for confidentiality and specific IPR.
-	The agreement may be called something other than a “Memorandum of Understanding”,
-	and something called a “Memorandum of Understanding”
-	may not be an [=MoU=] for the purposes of the Process.
 
-	Before signing the MoU,
-	the Team <em class="rfc2119">must</em> inform
-	the [=Advisory Committee=] of the intent to sign
-	and make the MoU available for [=Advisory Committee review=];
+	Non-technical agreements, including
+	those between W3C and its [=Members=] for the purposes of membership,
+	between W3C and its Partners for the purposes of partnership [[BYLAWS]],
+	and other agreements related to the operation of the Consortium
+	or to the ordinary provision of services,
+	are not subject to these Process provisions.
+
+	When considering a [=technical agreement=]
+	(i.e., before the decision whether to sign is made),
+	the Team <em class="rfc2119">should</em> provide
+	the [=Advisory Committee=] with a draft of the proposed [=agreement=],
+	along with an explanation of how W3C would benefit from signing this [=agreement=],
+	for their review and discussion.
+	After addressing any comments,
+	and subject to any management or governance procedures that apply
+	(e.g., formal review of proposed contracts by legal counsel or by the [=Board=]),
+	if the [=Team Decision|Team decides=] to proceed with signing the [=agreement=],
+	the Team <em class="rfc2119">must</em> announce the intent to sign,
+	and provide the final text of the [=agreement=],
+	with an explanation of signing rationale, to
+	the [=Advisory Committee=].
 	[=Advisory Committee representatives=] <em class="rfc2119">may</em> initiate an [=Advisory Committee Appeal=]
-	of the decision to sign the [=MoU=].
-	Unless an [=appeal=] rejects the proposal to sign an MoU,
-	the [=CEO=] may sign the [=MoU=] on behalf of W3C.
-	A signed [=Memorandum of Understanding=] <em class="rfc2119">should</em> be made public.
+	of the decision to sign the [=agreement=].
+	If the proposal is rejected on [=appeal=],
+	the [=Team=] <em class=rfc2119>must not</em> sign the [=agreement=] on behalf of W3C
+	unless directed to do so by the [=Board=].
+	A signed [=agreement=] <em class="rfc2119">should</em> be made public.
 
 	Information about <a href="https://www.w3.org/2001/11/StdLiaison">W3C liaisons with other organizations</a> [[LIAISON]]
 	and the guidelines W3C follows when creating a liaison is available on the Web.
@@ -4680,7 +5137,7 @@ Member Submission Process</h2>
 	or other ideas
 	for consideration by the [=Team=].
 	After review,
-	the [=Team=] <em class="rfc2119">may</em> make the material available at the W3C Web site.
+	the [=Team=] <em class="rfc2119">may</em> make the material available at the W3C website.
 	The formal process affords Members a record of their contribution
 	and gives them a mechanism for disclosing the details of the transaction with the Team
 	(including IPR claims).
@@ -4718,7 +5175,7 @@ Member Submission Process</h2>
 				<li>
 					If <a href="#SubmissionYes">acknowledged</a>,
 					the Team <em class="rfc2119">must</em> make the [=Member Submission=] available
-					at the public W3C Web site,
+					at the public W3C website,
 					in addition to Team comments about the [=Member Submission=].
 
 				<li>If <a href="#SubmissionNo">rejected</a>,
@@ -4750,7 +5207,7 @@ Member Submission Process</h2>
 		</ul>
 	</div>
 
-	Making a Member Submission available at the W3C Web site
+	Making a Member Submission available at the W3C website
 	does not imply endorsement by W3C,
 	including the W3C Team or Members.
 	The acknowledgment of a Submission request
@@ -4761,7 +5218,7 @@ Member Submission Process</h2>
 	<em class="rfc2119">must not</em> be referred to as “work in progress” of W3C.
 
 	The list of <a href="https://www.w3.org/Submission/">acknowledged Member Submissions</a> [[SUBMISSION-LIST]]
-	is available at the W3C Web site.
+	is available at the W3C website.
 
 <h3 id="SubmissionRights">
 Submitter Rights and Obligations</h3>
@@ -4897,7 +5354,7 @@ Team Rights and Obligations</h3>
 
 	Although they are not technical reports,
 	the documents in a [=Member Submission=]
-	<em class="rfc2119">must</em> fulfil the requirements established by the [=Team=],
+	<em class="rfc2119">must</em> fulfill the requirements established by the [=Team=],
 	including the Team's <a href="https://www.w3.org/pubrules/">Publication Rules</a> [[!PUBRULES]].
 
 	The [=Team=] sends a <dfn id="validation-notice">validation notice</dfn> to the [=Submitter=](s)
@@ -4928,10 +5385,10 @@ Acknowledgment of a Submission Request</h3>
 
 	<ul>
 		<li>
-			Make the [=Member Submission=] available at the W3C Web site.
+			Make the [=Member Submission=] available at the W3C website.
 
 		<li>
-			Make the Team comments about the Submission request available at the W3C Web site.
+			Make the Team comments about the Submission request available at the W3C website.
 	</ul>
 
 	If the [=Submitter=](s) wishes to modify
@@ -4953,7 +5410,7 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 			and acknowledgment might jeopardize the progress of the group.
 
 		<li>
-			The IPR statement made by the [=Submitter=](s) is inconsistent with the W3C's
+			The IPR statement made by the [=Submitter=](s) is inconsistent with W3C's
 			Patent Policy [[!PATENT-POLICY]]
 			and in particular the “Licensing Commitments in W3C Submissions”,
 			<a href="https://www.w3.org/Consortium/Legal/copyright-documents">Document License</a> [[!DOC-LICENSE]],
@@ -4968,25 +5425,20 @@ Rejection of a Submission Request, and Submission Appeals</h3>
 			The ideas expressed in the request lie well outside the scope of W3C's mission.
 	</ul>
 
-	  In case of a rejection,
-	  the [=Team=] <em class="rfc2119">must</em> inform the [=Advisory Committee representative=](s)
-	  of the [=Submitter=](s).
-	  If requested by the [=Submitter=](s),
-	  the [=Team=] <em class="rfc2119">must</em> provide rationale
-	  to the [=Submitter=](s) about the rejection.
-	  Other than to the [=Submitter=](s),
-	  the Team <em class="rfc2119">must not</em> make statements about why a Submission request was rejected.
+	In case of a rejection,
+	the [=Team=] <em class="rfc2119">must</em> inform the [=Advisory Committee representative=](s)
+	of the [=Submitter=](s).
+	If requested by the [=Submitter=](s),
+	the [=Team=] <em class="rfc2119">must</em> provide rationale
+	to the [=Submitter=](s) about the rejection.
+	Other than to the [=Submitter=](s),
+	the Team <em class="rfc2119">must not</em> make statements about why a Submission request was rejected.
 
-	  The [=Advisory Committee representative=](s) of the [=Submitters=](s)
-	  <em class="rfc2119">may</em> initiate a Submission Appeal
-	  of the [=Team's Decision=] to the [=TAG=]
-	  if the reasons are related to Web architecture,
-	  or to the [=Advisory Board=]
-	  if the request is rejected for other reasons.
-	  In this case the [=Team=] <em class="rfc2119">should</em> make available
-	  its rationale for the rejection to the appropriate body.
-	  The [=Team=] will establish a process for such appeals
-	  that ensures the appropriate <a href="#confidentiality-levels">level of confidentiality</a>.
+	The [=Advisory Committee representative=](s) of the [=Submitters=](s)
+	<em class="rfc2119">may</em> initiate a [=Submission Appeal=].
+	The procedure for handling <dfn>Submission Appeals</dfn> is the same as for [=Formal Objections=],
+	except that an [=AC Appeal=] is not possible
+	and both the Formal Objection and the [=Council Report=] are confidential to the [=Team=], [=TAG=], and [=AB=].
 
 <h2 id="GAProcess">
 Process Evolution</h2>
@@ -5058,6 +5510,7 @@ Acknowledgments</h2>
 	Sandro Hawke (W3C),
 	Shawn Lawton Henry,
 	Tantek Çelik (Mozilla),
+	Ted Thibodeau Jr (OpenLink Software),
 	Virginia Fournier (Apple),
 	Wendy Seltzer (W3C),
 	Yves Lafon (W3C).
@@ -5101,7 +5554,6 @@ Acknowledgments</h2>
 	Florian Rivoal,
 	Fuqiao Xue (W3C),
 	Geoffrey Creighton (Microsoft),
-	Geoffrey Snedden,
 	Giri Mandyam (Qualcomm),
 	Gregg Kellogg,
 	Hadley Beeman,
@@ -5157,6 +5609,7 @@ Acknowledgments</h2>
 	Robin Berjon (W3C),
 	Sally Khudairi (W3C),
 	Sam Ruby (IBM),
+	Sam Sneddon,		
 	Sandro Hawke (W3C),
 	Sangwhan Moon (Odd Concepts),
 	Scott Peterson (Google),
@@ -5183,51 +5636,179 @@ Changes</h2>
 	<em>This section is non-normative.</em>
 
 <h3 id=changes-2021 class=no-num>
-Changes since the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a></h3>
+Changes since the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a></h3>
 
 	<p>This document is based on the <a href="https://www.w3.org/2021/Process-20211102/">2 November 2021 Process</a>.
 	A <a href="https://github.com/w3c/w3process/issues?q=milestone%3A%22Process+2022%22+is%3Aclosed">list of issues addressed</a>,
 	a <a href="https://services.w3.org/htmldiff?doc1=&amp;doc2=https%3A%2F%2Fwww.w3.org%2FConsortium%2FProcess%2FDrafts%2F">diff from Process 2021 to this latest version</a>,
 	as well as
-	a <a href="https://github.com/w3c/w3process/compare/process-2021...main">detailed log of all changes since then</a>
+	a <a href="https://github.com/w3c/w3process/compare/p2021...main">detailed log of all changes since then</a>
 	are available.
 
-	The following is a summary of the main differences:
+	In addition to a number of editorial adjustments
+	and minor teaks,
+	the following is a summary of the main differences:
 
-	<dl>
-		<dt>
-			Changes related to the role of the Director
-		<dd>
-			<ul>
-				<li>
-					The [=CEO=] rather than the [=Director=] is charged with negotiating [=MoUs=].
+<h4 id=dirfree-changes>
+Changes related to the role of the Director</h4>
 
-				<li>
-					The [=CEO=] rather than the [=Director=] is charged with [[#discipline|disciplinary questions]].
+	<ul>
+		<li>
+			<a href="#ACReviewAfter">Outcomes of AC Reviews</a> are no longer unconstrained decisions (by the Director),
+			but instead must be based on the content of the review,
+			with specific rules (based on current best practices)
+			about what can or cannot be adjusted post review,
+			and under what circumstances.
 
-				<li>
+		<li>
+			Rather than the Director, the [=W3C Council=],
+			which is composed of TAG+AB+CEO,
+			will now hear and resolve formal objections.
 
-					The [=Team=] rather than the [=Director=] is charged with handling [=Member Submission=] requests.
-				<li>
-					The [=Team=] rather than the [=Director=] is charged with handling various participation-related judgement calls
-					(see [[#MemberConsortia]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
-			</ul>
-		<dt>
-			Other miscellaneous changes
-		<dd>
-			<ul>
-				<li>
-					Allow [=Recommendations=] to transition directly to [=Working Draft=]
-					without having to go through [=Candidate Recommendation=]
-					when making [[#revised-rec-substantive|substantive changes]].
+		<li>
+			The W3C Council will also hear [=Submission Appeals=],
+			which were previously handled separately by either the TAG or the AB,
+			depending on the grounds for the appeal.
 
-				<li>
-					Stop excluding comments from AC Reps from those that have to be addressed
-					while [[#transition-pr|transitioning to Proposed Recommendation]];
-					just because there will be an opportunity to address them later
-					doesn't mean they shouldn't be handled at the first opportunity.
-			</ul>
-	</dl>
+		<li>
+			The [=Team=] rather than the Director is charged with
+			[[#TAG-appointments|appointing]] the 3 non-elected [=TAG=] members,
+			subject to ratification by the [=TAG=] and [=AB=].
+
+		<li>
+			There is no longer an ex-officio seat for the Director on the [=TAG=],
+			but Tim Berners-Lee personally does continue to hold one.
+
+		<li>
+			The [=Team=] rather than the Director is charged with verification that the various expectations of the Process
+			have been fulfilled for [=Transition Requests=] and [=Update Requests=].
+
+		<li>
+			Require AB and TAG approval when the [=Team=] wants to
+			<a href="#rec-track-regression">lower the maturity stage</a>
+			of a technical report without a [=Group Decision=].
+
+		<li>
+			The [=Team=], [=AB=], or [=TAG=] rather than the Director is now responsible
+			for proposing group creation and forcible closure;
+			[=AC Review=] is now required for forcible <a href="#GeneralTermination">group closure</a>
+			(it already was for group creation).
+
+		<li>
+			The [=CEO=] rather than the Director is charged with [[#discipline|disciplinary questions]].
+
+		<li>
+			The [=Team=] rather than the Director is charged with negotiating [=MoUs=]
+			(now called [=technical agreements=])
+			and other agreements related to the technical program.
+
+		<li>
+			The [=Team=] rather than the Director is charged with handling various participation-related judgement calls
+			(see [[#MemberAssoc]], [[#coi]], [[#member-rep]], [[#ReqsAllGroups]], and [[#invited-expert-wg]]).
+
+		<li>
+			The [=Team=] rather than the Director is charged with handling [=Member Submission=] requests
+			(but see also [=Submission Appeals=]).
+	</ul>
+
+<h4 id=other-gov-changes>
+Other Governance Changes</h4>
+
+	<ul>
+		<li>
+			The [=TAG=] now picks its own chair(s),
+			and the timing of AB and TAG chair selection is clarified.
+
+		<li>
+			Appointed [=TAG=] seats now have consecutive term limits.
+
+		<li>
+			Remove mentions of the Hosts,
+			add recognition of the existence of the W3C Inc. Board of Directors,
+			and adjust language for W3C being rooted in W3C Inc.
+
+		<li>
+			Codify that the AB is expected to pick up to two of its participants
+			as <a href="#ab-bod-liaison">liaisons for the board</a>.
+
+		<li>
+			Clarify interactions between AC / Team / Board about MoUs
+			(now called [=technical agreements=]).
+	</ul>
+
+<h4 id=misc-changes>
+Other miscellaneous changes</h4>
+
+	<ul>
+		<li>
+			Improve the definition of consensus
+			to make the notion usable even in contexts
+			where Formal Objections would be inappropriate
+			(such as inside a W3C Council,
+			or when the TAG or AB pick their chair),
+			and to avoid circular definitions.
+
+		<li>
+			Merge Group Decision Appeal and Formal Object;
+			clarify what can be objected to.
+
+		<li>
+			Define editorial vs substantive changes for non-REC-track documents.
+
+		<li>
+			Expect supporting material to meeting minutes to be archived as the minutes are.
+
+		<li>
+			Encourage people requesting an [=AC Appeal=]
+			to share their request with the [=Advisory Committee=]
+			in addition to the [=Team=].
+
+		<li>
+			Allow [=Recommendations=] to transition directly to [=Working Draft=]
+			without having to go through [=Candidate Recommendation=]
+			when making [[#revised-rec-substantive|substantive changes]].
+
+		<li>
+			Place the W3C Document License under the same <a href="#GAProcess">revision process and requirements</a>
+			as this document, the CEPC, or the Patent Policy.
+
+		<li>
+			Similarly to the pre-existing requirement that a public record be made
+			about confidential Formal Objections about public things,
+			added a requirement that a member visible record be made
+			about confidential Formal Objections about member-visible things.
+
+		<li>
+			Stop excluding comments from AC Reps from those that have to be addressed
+			while [[#transition-pr|transitioning to Proposed Recommendation]];
+			just because there will be an opportunity to address them later
+			doesn't mean they shouldn't be handled at the first opportunity.
+
+		<li>
+			Clarify what the term [=Candidate Recommendation review period=] refers to.
+
+		<li>
+			Clarify how the advance notice period for [=MoU=] works.
+
+		<li>
+			Various bits of information that were so far required
+			to be included in announcements of [=charter extensions=]
+			are covered in the group's homepage,
+			making it sufficient to point to that page
+			rather than having to inline everything in the announcement.
+
+		<li>
+			Be more rigorous in references to the Patent Policy,
+			using dated versions when appropriate.
+
+		<li>
+			Rename “Member Consortia” into [=Member Associations=]
+			to align with terminology in the Bylaws
+			(and to avoid confusion with W3C itself).
+
+		<li>
+			Rename “maturity level” into “maturity stage”.
+	</ul>
 
 <h3 id=changes-previous class=no-num oldids="changes-2020, changes-2019, changes-2018, changes-2017">
 Changes since earlier versions</h3>
@@ -5395,7 +5976,7 @@ Changes since earlier versions</h3>
 	},
 	"MEMBER-HP": {
 		"href": "https://www.w3.org/Member/",
-		"title": "Member Web site (Member-only access)",
+		"title": "Member website (Member-only access)",
 		"publisher": "W3C"
 	},
 	"MEMBER-SUB": {
@@ -5428,6 +6009,24 @@ Changes since earlier versions</h3>
 		"href": "https://www.w3.org/Guide/transitions",
 		"title": "Organize a Technical Report Transition",
 		"publisher": "W3C"
+	},
+	"DECISION-APPEAL": {
+		"href": "https://www.w3.org/Guide/process/ac-appeal",
+		"title": "Appealing a W3C Decision",
+		"publisher": "W3C"
+	},
+	"BYLAWS": {
+		"href": "https://www.w3.org/2022/10/w3c-bylaws-20221019.pdf",
+		"title": "Amended and Restated Bylaws of World Wide Web Consortium, Inc."
+	},
+	"W3C-IPR": {
+		"href": "https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231",
+		"title": "W3C IPR Policies"
+	},
+	"COUNCIL-REPORT-INDEX": {
+		"href": "https://beta.w3.org/about/council/",
+		"title": "Council Report Index"
 	}
+
 }
 </pre>
